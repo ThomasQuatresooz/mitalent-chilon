@@ -14,8 +14,8 @@ body {
 
 #mainContainer {
     width: 1200px;
-    min-height: 600px;
-    background: white;
+    min-height: 900px;
+    background-color: white;
     margin: auto;
 }
 
@@ -311,7 +311,7 @@ section {
     font-size: 0.5em;
 }
 
-.mediumItem--containerTitle img{
+.mediumItem--containerTitle img {
     width: 25px;
     height: 25px;
 }
