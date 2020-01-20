@@ -15,20 +15,325 @@ body {
 #mainContainer {
     width: 1200px;
     min-height: 600px;
-    background-color: white;
+    background: white;
     margin: auto;
 }
 
 
 /* Section Quentin */
 
+#mainCarousel {
+    padding-top: 150px;
+    ;
+    width: 100%;
+    min-height: 600px;
+    /* A SUPPRIMER PLUS TARD */
+    background-color: white;
+    background-image: linear-gradient(90deg, rgba(199, 220, 221, 1) 0%, rgba(208, 226, 226, 1) 100%);
+    background-size: 375px 375px;
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+#ficheTalent {
+    display: grid;
+    grid-template-columns: 3fr 1fr 10fr 1fr 3fr;
+    grid-template-rows: 5fr 3fr 1fr;
+
+    width: 100%;
+    background-color: rgba(255, 166, 0, 0.521);
+}
+
+#portrait {
+    grid-column: 2/4;
+    grid-row: 1/4;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+#ficheTalent>a.button {
+    display: inline-grid;
+    justify-items: center;
+    align-items: center;
+    text-decoration: none;
+    background-color: #ACD6D4;
+    grid-row: 3/4;
+}
 
 
 /* Section Noah */
+section {
+    width: 1200px;
+}
+
+#slider {
+    width: 1000px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.menu {
+    margin: auto;
+    margin-bottom: 20px;
+    width: 40%;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.slides {
+    width: 1100px;
+    height: 610px;
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+    margin: auto;
+
+}
+
+.slides::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+.slides::-webkit-scrollbar-thumb {
+    background: transparent;
+    border-radius: 10px;
+
+}
+
+.slides::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.slides>div {
+    scroll-snap-align: start;
+    flex-shrink: 0;
+    width: 1100px;
+    height: 500px;
+    margin-right: 50px;
+    border-radius: 10px;
+    background: #eee;
+    transform-origin: center center;
+    transform: scale(1);
+    transition: transform 0.5s;
+    position: relative;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    font-size: 100px;
+}
 
 
+
+div.imgslide {
+    width: 25%;
+    height: 300px;
+    /* border: solid white 1px; */
+    background-color: aqua;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.button {
+    width: 100%;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    background-color: #ACD6D4;
+    width: 250px;
+    height: 60px;
+    margin: auto;
+    border-radius: 40px;
+    box-shadow: none;
+    border: none;
+}
+
+button a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: auto;
+}
+
+img {
+    background-color: #ACD6D4;
+    width: 275px;
+    height: inherit;
+    transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
+}
+
+img:hover {
+    opacity: 0.5;
+    cursor: pointer;
+
+}
 
 /* Section Thomas */
+section {
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+}
+
+#blog {
+    margin: 1rem auto;
+    padding: 0;
+    width: max-content;
+    display: grid;
+    grid-template-columns: repeat(3, 325px);
+    grid-template-rows: 90px 325px 260px;
+    grid-column-gap: 32.5px;
+    grid-row-gap: 32.5px;
+}
+
+#blog--title {
+    margin: 0 auto;
+    text-align: center;
+}
+
+#blog--line {
+    width: 75px;
+    text-align: center;
+
+}
+
+.blog--item-mini {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+#blog--item-mini1 {
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+#blog--item-mini2 {
+    grid-area: 1 / 2 / 2 / 3;
+}
+
+#blog--item-mini3 {
+    grid-area: 1 / 3 / 2 / 4;
+}
+
+.blog--item-row {
+    grid-area: 2 / 1 / 3 / 3;
+    background-image: url(https://picsum.photos/seed/picsum/700/325);
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.blog--item-medium {
+    background-image: url(https://picsum.photos/seed/picsum/325/260);
+}
+
+#blog--item-medium1 {
+    grid-area: 3 / 1 / 4 / 2;
+}
+
+#blog--item-medium2 {
+    grid-area: 3 / 2 / 4 / 3;
+}
+
+.blog--item-col {
+    grid-area: 2 / 3 / 4 / 4;
+    background-image: url(./images/women_blog_col.jpg);
+}
+
+.blog--item-mini h2 {
+    font-size: 0.5em;
+    margin-top: 0;
+}
+
+.blog--item-mini h5 {
+    font-size: 0.3em;
+    margin-bottom: 0;
+}
+
+.itemMini--info {
+    margin-left: 1rem;
+}
+
+.blog--item-medium {
+    position: relative;
+}
+
+#rowItem--containerTitle {
+    width: 260px;
+    height: 100%;
+    background-color: #ACD6D4;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+#rowItem--containerTitle * {
+    margin: 1rem;
+}
+
+#rowItem--tag {
+    background-color: #FFF;
+    align-self: flex-start;
+    margin: 5px 5px 0 0;
+}
+
+.mediumItem--containerTitle {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 90px;
+    background-color: #FFF;
+
+    font-size: 0.5em;
+}
+
+.mediumItem--containerTitle img{
+    width: 25px;
+    height: 25px;
+}
+
+
+#mediumItem--containerTitleVideo {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.blog--item-col {
+    position: relative;
+}
+
+#colItem--containerTitle {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 90px;
+    background-color: #FFF;
+
+    font-size: 0.5em;
+}
 
 
 
