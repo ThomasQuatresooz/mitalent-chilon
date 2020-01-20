@@ -13,16 +13,9 @@ body {
 }
 
 #mainContainer {
-<<<<<<< HEAD
-    margin: 0;
-    width: 1200px;
-    min-height: 600px;
-    background: white;
-=======
     width: 1200px;
     min-height: 900px;
     background-color: white;
->>>>>>> ajout-noah
     margin: auto;
 
 }
