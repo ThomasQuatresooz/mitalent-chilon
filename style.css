@@ -13,19 +13,11 @@ body {
 }
 
 #mainContainer {
-<<<<<<< HEAD
-<<<<<<< HEAD
-    margin: 0;
-=======
->>>>>>> ajout-thomas
-    width: 1200px;
-    min-height: 600px;
-    background: white;
-=======
+
     width: 1200px;
     min-height: 900px;
     background-color: white;
->>>>>>> ajout-noah
+
     margin: auto;
 
 }
