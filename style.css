@@ -13,9 +13,11 @@ body {
 }
 
 #mainContainer {
+
     width: 1200px;
     min-height: 900px;
     background-color: white;
+
     margin: auto;
 
 }
@@ -191,6 +193,150 @@ img:hover {
 }
 
 /* Section Thomas */
+section {
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+}
+
+#blog {
+    margin: 1rem auto;
+    padding: 0;
+    width: max-content;
+    display: grid;
+    grid-template-columns: repeat(3, 325px);
+    grid-template-rows: 90px 325px 260px;
+    grid-column-gap: 32.5px;
+    grid-row-gap: 32.5px;
+}
+
+#blog--title {
+    margin: 0 auto;
+    text-align: center;
+}
+
+#blog--line {
+    width: 75px;
+    text-align: center;
+
+}
+
+.blog--item-mini {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+#blog--item-mini1 {
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+#blog--item-mini2 {
+    grid-area: 1 / 2 / 2 / 3;
+}
+
+#blog--item-mini3 {
+    grid-area: 1 / 3 / 2 / 4;
+}
+
+.blog--item-row {
+    grid-area: 2 / 1 / 3 / 3;
+    background-image: url(https://picsum.photos/seed/picsum/700/325);
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.blog--item-medium {
+    background-image: url(https://picsum.photos/seed/picsum/325/260);
+}
+
+#blog--item-medium1 {
+    grid-area: 3 / 1 / 4 / 2;
+}
+
+#blog--item-medium2 {
+    grid-area: 3 / 2 / 4 / 3;
+}
+
+.blog--item-col {
+    grid-area: 2 / 3 / 4 / 4;
+    background-image: url(./images/women_blog_col.jpg);
+}
+
+.blog--item-mini h2 {
+    font-size: 0.5em;
+    margin-top: 0;
+}
+
+.blog--item-mini h5 {
+    font-size: 0.3em;
+    margin-bottom: 0;
+}
+
+.itemMini--info {
+    margin-left: 1rem;
+}
+
+.blog--item-medium {
+    position: relative;
+}
+
+#rowItem--containerTitle {
+    width: 260px;
+    height: 100%;
+    background-color: #ACD6D4;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+#rowItem--containerTitle * {
+    margin: 1rem;
+}
+
+#rowItem--tag {
+    background-color: #FFF;
+    align-self: flex-start;
+    margin: 5px 5px 0 0;
+}
+
+.mediumItem--containerTitle {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 90px;
+    background-color: #FFF;
+
+    font-size: 0.5em;
+}
+
+.mediumItem--containerTitle img {
+    width: 25px;
+    height: 25px;
+}
+
+
+#mediumItem--containerTitleVideo {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.blog--item-col {
+    position: relative;
+}
+
+#colItem--containerTitle {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 90px;
+    background-color: #FFF;
+
+    font-size: 0.5em;
+}
 
 
 
