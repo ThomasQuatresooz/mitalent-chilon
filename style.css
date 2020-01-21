@@ -97,7 +97,6 @@ body {
     scroll-behavior: smooth;
     -webkit-overflow-scrolling: touch;
     margin: auto;
-
 }
 
 .slides::-webkit-scrollbar {
@@ -106,7 +105,7 @@ body {
 }
 
 .slides::-webkit-scrollbar-thumb {
-    background: black;
+    background: transparent;
     border-radius: 10px;
 }
 
