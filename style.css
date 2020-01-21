@@ -606,10 +606,7 @@ footer {
 }
 
 
-.gallery--content-info,
-h1,
-h2,
-img {
+#gallery--content .gallery--content-info {
     display: none;
 }
 
