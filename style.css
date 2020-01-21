@@ -533,7 +533,7 @@ footer {
     padding: 85px 100px 100px 85px
 }
 
-#title-client a{
+#title-client a {
     padding: 10px 50px;
     background-color: #ACD6D4;
     border-radius: 3px;
@@ -553,26 +553,100 @@ footer {
     justify-content: space-between;
     align-items: stretch;
 }
-#info-client--buttonUpDown{
+
+#info-client--buttonUpDown {
     width: 80px;
     height: 100%;
     background-color: #FFF;
 }
 
+/* gallery-code */
+
+#gallery {
+    margin: 1rem 35px;
+}
+
+#gallery--content {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.client {
+    width: 25%;
+    height: 310px;
+    background-color: black;
+    background-image: url(https://picsum.photos/300/310);
+
+    text-decoration: none;
+    color: #FFF;
+    transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
+}
+
+.client:visited {
+    color: #FFF;
+}
+
+.client:hover .gallery--content-info {
+    background-color: black;
+    opacity: 0.6;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.client:hover .gallery--content-info * {
+    display: block;
+    opacity: 1;
+}
 
 
+.gallery--content-info,
+h1,
+h2,
+img {
+    display: none;
+}
 
+.gallery--content-info {
+    height: 100%;
+    text-align: center;
+}
 
+.gallery--content-info h1 {
+    margin: 0 0 10px 0;
+    font-size: 1.5em;
+}
+
+.gallery--content-info h2 {
+    margin: 0 0 15px 0;
+    font-size: 0.8em;
+}
+
+.gallery--content-info img {
+    width: 24px;
+    height: 24px;
+    margin: 5px 5px auto auto;
+    padding: 5px;
+    border: none;
+    border-radius: 17px;
+    background-color: #ACD6D4;
+}
 
 /* Section Safiye */
 
-#main-about{
+#main-about {
     background-image: url(images/aboutRobot.jpeg);
     background-size: 400px 700px;
     background-repeat: no-repeat;
 }
 
-#main-content-about{
+#main-content-about {
     background-color: white;
     background-image: url(images/aboutMotivation.jpg);
     background-repeat: no-repeat;
@@ -584,7 +658,7 @@ footer {
     font-family: 'Nunito', sans-serif;
 }
 
-#main-content-about p{
+#main-content-about p {
     display: flex;
     font-size: 12px;
     color: #808080;
@@ -594,30 +668,30 @@ footer {
     margin-bottom: 30px;
 }
 
-#main-content-about p:first-child{
+#main-content-about p:first-child {
     padding-top: 150px;
     font-size: 24px;
     color: black;
 }
 
-#main-content-about .premiere-lettre{
+#main-content-about .premiere-lettre {
     font-size: 50px;
     margin-right: 8px;
     margin-top: 14px;
 }
 
-#main-contact{
+#main-contact {
     font-family: 'Nunito', sans-serif;
 }
 
-#content-contact-left{
+#content-contact-left {
     background-color: teal;
     width: 400px;
     height: 700px;
     float: left;
 }
 
-#content-contact-left h3{
+#content-contact-left h3 {
     padding-top: 150px;
     color: white;
     font-size: 50px;
@@ -626,27 +700,27 @@ footer {
     margin-left: 150px;
 }
 
-#content-contact-left P{
+#content-contact-left P {
     padding-top: 120px;
     color: white;
     font-size: 20px;
     margin-left: 150px;
 }
 
-#main-content-contact{
+#main-content-contact {
     background-color: white;
     width: 550px;
     height: 700px;
     margin-left: 460px;
 }
 
-#main-content-contact .premiere-lettre{
+#main-content-contact .premiere-lettre {
     font-size: 50px;
     margin-right: 8px;
     margin-top: 20px;
 }
 
-#main-content-contact p{
+#main-content-contact p {
     padding-top: 150px;
     font-size: 24px;
     color: black;
