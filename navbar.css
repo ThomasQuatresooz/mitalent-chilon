@@ -59,7 +59,8 @@ img.search {
 #socialBar--top .rotate {
 
     position: absolute;
-    top: 350px;
+    top: 320px;
+    font-size: 0.9em;
 
     transform: rotate(-90deg);
 
@@ -68,7 +69,7 @@ img.search {
 .line {
 
     position: absolute;
-    width: 80px;
+    width: 60px;
     border: solid 1px black;
     bottom: 10px;
     left: 60px;
