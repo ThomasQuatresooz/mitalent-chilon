@@ -13,13 +13,10 @@ body {
 }
 
 #mainContainer {
-
     width: 1200px;
     min-height: 900px;
     background-color: white;
-
     margin: auto;
-
 }
 
 
@@ -66,9 +63,7 @@ body {
 
 
 /* Section Noah */
-section {
-    /* width: 1200px; */
-}
+
 
 #slider {
     width: 1000px;
@@ -341,3 +336,37 @@ section {
 
 
 /* Section Safiye */
+#main-about {
+    background-image: url(images/ciel.jpeg);
+    height: 450px;
+    width: 400px;
+}
+
+#main-content-about {
+    background-color: white;
+    width: 520px;
+    height: 450px;
+    margin-left: 420px;
+}
+
+#main-content-about p {
+    display: flex;
+    font-size: 20px;
+    color: #97959C;
+
+}
+
+#main-content-about p:first-child {
+    padding-top: 100px;
+    color: black;
+}
+
+.premiere-lettre {
+    font-size: 48px;
+    margin-right: 8px;
+}
+
+#main-content-about img {
+    height: 60px;
+    width: 300px;
+}
