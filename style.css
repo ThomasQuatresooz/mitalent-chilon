@@ -273,23 +273,66 @@ img.inslide:hover {
 }
 
 /* page profile */
-.profile {
-    width: 1100px;
-    min-height: 700px;
-    background-color: aqua;
+#sectionprofile {
+    width: 1200px;
     margin: auto;
-    display: flex;
+    background-color: white;
 }
 
-#texteprofile {
-    height: 249px;
+#containeprofile {
+    width: 1100px;
+}
+
+.imgprofile img {
     width: 400px;
+}
+
+.profile {
+    width: 1100px;
     margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.navprofile a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-size: 10px;
+    font-weight: bold;
+    margin-right: 19px;
+}
+
+#texteprofile h1 {
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+#texteprofile h2 {
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+#texteprofile h3 {
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+.texteprofile {
+    width: 400px;
+    margin-top: auto;
+    margin-bottom: auto;
     text-align: justify;
+    font-family: 'Nunito',
+        sans-serif;
+
 }
 
 #texteprofile>p {
-    font-size: 12px;
+    font-size: 14px;
+    line-height: 1.6;
+    color: #808080;
 }
 
 /* page profile */
@@ -533,7 +576,7 @@ footer {
     padding: 85px 100px 100px 85px
 }
 
-#title-client a{
+#title-client a {
     padding: 10px 50px;
     background-color: #ACD6D4;
     border-radius: 3px;
@@ -553,7 +596,8 @@ footer {
     justify-content: space-between;
     align-items: stretch;
 }
-#info-client--buttonUpDown{
+
+#info-client--buttonUpDown {
     width: 80px;
     height: 100%;
     background-color: #FFF;
@@ -566,13 +610,13 @@ footer {
 
 /* Section Safiye */
 
-#main-about{
+#main-about {
     background-image: url(images/aboutRobot.jpeg);
     background-size: 400px 700px;
     background-repeat: no-repeat;
 }
 
-#main-content-about{
+#main-content-about {
     background-color: white;
     background-image: url(images/aboutMotivation.jpg);
     background-repeat: no-repeat;
@@ -584,7 +628,7 @@ footer {
     font-family: 'Nunito', sans-serif;
 }
 
-#main-content-about p{
+#main-content-about p {
     display: flex;
     font-size: 12px;
     color: #808080;
@@ -594,30 +638,30 @@ footer {
     margin-bottom: 30px;
 }
 
-#main-content-about p:first-child{
+#main-content-about p:first-child {
     padding-top: 150px;
     font-size: 24px;
     color: black;
 }
 
-#main-content-about .premiere-lettre{
+#main-content-about .premiere-lettre {
     font-size: 50px;
     margin-right: 8px;
     margin-top: 14px;
 }
 
-#main-contact{
+#main-contact {
     font-family: 'Nunito', sans-serif;
 }
 
-#content-contact-left{
+#content-contact-left {
     background-color: teal;
     width: 400px;
     height: 700px;
     float: left;
 }
 
-#content-contact-left h3{
+#content-contact-left h3 {
     padding-top: 150px;
     color: white;
     font-size: 50px;
@@ -626,27 +670,27 @@ footer {
     margin-left: 150px;
 }
 
-#content-contact-left P{
+#content-contact-left P {
     padding-top: 120px;
     color: white;
     font-size: 20px;
     margin-left: 150px;
 }
 
-#main-content-contact{
+#main-content-contact {
     background-color: white;
     width: 550px;
     height: 700px;
     margin-left: 460px;
 }
 
-#main-content-contact .premiere-lettre{
+#main-content-contact .premiere-lettre {
     font-size: 50px;
     margin-right: 8px;
     margin-top: 20px;
 }
 
-#main-content-contact p{
+#main-content-contact p {
     padding-top: 150px;
     font-size: 24px;
     color: black;
