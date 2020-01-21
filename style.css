@@ -603,10 +603,80 @@ footer {
     background-color: #FFF;
 }
 
+/* gallery-code */
+
+#gallery {
+    margin: 1rem 35px;
+}
+
+#gallery--content {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.client {
+    width: 25%;
+    height: 310px;
+    background-color: black;
+    background-image: url(https://picsum.photos/300/310);
+
+    text-decoration: none;
+    color: #FFF;
+    transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
+}
+
+.client:visited {
+    color: #FFF;
+}
+
+.client:hover .gallery--content-info {
+    background-color: black;
+    opacity: 0.6;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.client:hover .gallery--content-info * {
+    display: block;
+    opacity: 1;
+}
 
 
+#gallery--content .gallery--content-info {
+    display: none;
+}
 
+.gallery--content-info {
+    height: 100%;
+    text-align: center;
+}
 
+.gallery--content-info h1 {
+    margin: 0 0 10px 0;
+    font-size: 1.5em;
+}
+
+.gallery--content-info h2 {
+    margin: 0 0 15px 0;
+    font-size: 0.8em;
+}
+
+.gallery--content-info img {
+    width: 24px;
+    height: 24px;
+    margin: 5px 5px auto auto;
+    padding: 5px;
+    border: none;
+    border-radius: 17px;
+    background-color: #ACD6D4;
+}
 
 /* Section Safiye */
 
