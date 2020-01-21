@@ -84,7 +84,7 @@ body {
     text-decoration: none;
     color: black;
     text-transform: uppercase;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Nunito', sans-serif;
     font-weight: bold;
 }
 
@@ -106,9 +106,8 @@ body {
 }
 
 .slides::-webkit-scrollbar-thumb {
-    background: transparent;
+    background: black;
     border-radius: 10px;
-
 }
 
 .slides::-webkit-scrollbar-track {
@@ -142,15 +141,12 @@ div.imgslide {
     background-color: aqua;
 }
 
-* {
-    box-sizing: border-box;
-}
-
-.button {
+.buttonN {
+    margin-top: 10px;
     width: 100%;
 }
 
-button {
+#EM {
     display: flex;
     align-items: center;
     background-color: #ACD6D4;
@@ -162,17 +158,17 @@ button {
     border: none;
 }
 
-button a {
+#EM a {
     text-decoration: none;
     color: white;
     text-transform: uppercase;
     font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Nunito', sans-serif;
     font-weight: bold;
     margin: auto;
 }
 
-img {
+img.inslide {
     background-color: #ACD6D4;
     width: 275px;
     height: inherit;
