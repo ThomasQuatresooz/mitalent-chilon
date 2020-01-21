@@ -565,23 +565,34 @@ footer {
 
 
 /* Section Safiye */
-
+/* About Style */
 #main-about{
     background-image: url(images/aboutRobot.jpeg);
     background-size: 400px 700px;
     background-repeat: no-repeat;
+    margin-bottom: 50px;
 }
 
 #main-content-about{
     background-color: white;
-    background-image: url(images/aboutMotivation.jpg);
-    background-repeat: no-repeat;
-    background-size: 400px 160px;
-    background-position: bottom 0px left 100px;
     width: 550px;
     height: 700px;
     margin-left: 460px;
     font-family: 'Nunito', sans-serif;
+}
+
+#about-bouton-motivation a{
+    text-decoration: none;
+}
+
+#about-bouton-motivation button{
+    height: 160px;
+    width: 400px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    background-color: black;
+    margin-left: 100px;
 }
 
 #main-content-about p{
@@ -606,6 +617,8 @@ footer {
     margin-top: 14px;
 }
 
+/* Contact Style */
+
 #main-contact{
     font-family: 'Nunito', sans-serif;
 }
@@ -618,16 +631,16 @@ footer {
 }
 
 #content-contact-left h3{
-    padding-top: 150px;
+    padding-top: 120px;
     color: white;
-    font-size: 50px;
+    font-size: 60px;
     width: 50px;
     height: 100px;
     margin-left: 150px;
 }
 
 #content-contact-left P{
-    padding-top: 120px;
+    padding-top: 0px;
     color: white;
     font-size: 20px;
     margin-left: 150px;
@@ -647,10 +660,43 @@ footer {
 }
 
 #main-content-contact p{
-    padding-top: 150px;
+    padding-top: 200px;
     font-size: 24px;
     color: black;
     line-height: 30px;
     margin-left: 100px;
     margin-bottom: 30px;
+}
+
+#grid-contact{
+    display: grid;
+    grid-template-columns: 10% 30% 10% 30%;
+    grid-template-rows: 50% 50%;
+    grid-gap: 10%;
+}
+
+#grid-contact img{
+    height: 20px;
+    width: 20px;
+}
+
+#contact-adress{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+#contact-phone{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+#contact-email{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 2;
 }
