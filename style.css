@@ -2,6 +2,7 @@
 couleur logo Mitalent : #333333
 couleur de fond d'images photos portrait : #D8D8D6 
 couleur de fond de la page : #E5E5E5
+couleur gris sombre (titre, etc ?) #1A191E
 
 */
 
@@ -24,7 +25,6 @@ body {
 
 #mainCarousel {
     padding-top: 150px;
-    ;
     width: 100%;
     min-height: 600px;
     /* A SUPPRIMER PLUS TARD */
@@ -37,29 +37,61 @@ body {
 
 #ficheTalent {
     display: grid;
-    grid-template-columns: 3fr 1fr 10fr 1fr 3fr;
-    grid-template-rows: 5fr 3fr 1fr;
-
-    width: 100%;
-    background-color: rgba(255, 166, 0, 0.521);
+    grid-template-columns: 250px 90px 12fr 1fr 3fr;
+    grid-template-rows: 100px 400px 90px;
+    /* background-color: rgba(255, 166, 0, 0.521); */
 }
 
 #portrait {
     grid-column: 2/4;
-    grid-row: 1/4;
-    width: 100%;
-    height: auto;
-    overflow: hidden;
+    grid-row: 1/3;
+    background-image: url("images/derek.jpg");
+    background-position: 0px;
+    background-size: 135%;
+}
+
+#name {
+
+
+
+    position: relative;
+    right: 50px;
+    top: 50px;
+
+}
+
+#name h1 {
+    font-size: 4.5em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    margin-bottom: 0;
+    margin-top: 0;
+    line-height: 110%;
+
+
+    color: #1A191E;
+}
+
+#name h2 {
+    font-size: 1em;
+    font-family: 'Nunito';
+    text-transform: uppercase;
+    color: rgb(61, 61, 61);
+
 }
 
 #ficheTalent>a.button {
+    color: white;
     display: inline-grid;
     justify-items: center;
     align-items: center;
     text-decoration: none;
-    background-color: #ACD6D4;
+    background-color: #B5D3D3;
     grid-row: 3/4;
+    font-family: 'Nunito';
+    font-weight: 600;
 }
+
 
 
 /* Section Noah */
@@ -338,32 +370,37 @@ section {
 
 
 /* Section Safiye */
-#main-about{
+#main-about {
     background-image: url(images/ciel.jpeg);
     height: 450px;
     width: 400px;
 }
-#main-content-about{
+
+#main-content-about {
     background-color: white;
     width: 520px;
     height: 450px;
     margin-left: 420px;
 }
-#main-content-about p{
+
+#main-content-about p {
     display: flex;
     font-size: 20px;
     color: #97959C;
 
 }
-#main-content-about p:first-child{
+
+#main-content-about p:first-child {
     padding-top: 100px;
     color: black;
 }
-.premiere-lettre{
+
+.premiere-lettre {
     font-size: 48px;
     margin-right: 8px;
 }
-#main-content-about img{
+
+#main-content-about img {
     height: 60px;
     width: 300px;
 }

@@ -1,0 +1,19 @@
+#navbar {
+
+    display: flex;
+    height: 100px;
+    /* background-color: rgba(255, 105, 180, 0.562); */
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 1em;
+}
+
+img.search {
+    width: 18px;
+
+}
+
+img.logo {
+
+    height: 24px;
+}
