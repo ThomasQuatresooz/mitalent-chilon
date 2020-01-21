@@ -88,10 +88,15 @@ body {
 
 .menu a {
     text-decoration: none;
-    color: black;
+    color: #808080;
     text-transform: uppercase;
     font-family: 'Nunito', sans-serif;
     font-weight: bold;
+}
+
+.menu a:hover {
+    color: black;
+    text-decoration: underline;
 }
 
 .slides {
