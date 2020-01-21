@@ -24,7 +24,6 @@ body {
 
 #mainCarousel {
     padding-top: 150px;
-    ;
     width: 100%;
     min-height: 600px;
     /* A SUPPRIMER PLUS TARD */
@@ -338,32 +337,92 @@ section {
 
 
 /* Section Safiye */
+
 #main-about{
-    background-image: url(images/ciel.jpeg);
-    height: 450px;
-    width: 400px;
+    background-image: url(images/aboutRobot.jpeg);
+    background-size: 400px 700px;
+    background-repeat: no-repeat;
 }
+
 #main-content-about{
     background-color: white;
-    width: 520px;
-    height: 450px;
-    margin-left: 420px;
+    background-image: url(images/aboutMotivation.jpg);
+    background-repeat: no-repeat;
+    background-size: 400px 160px;
+    background-position: bottom 0px left 100px;
+    width: 550px;
+    height: 700px;
+    margin-left: 460px;
+    font-family: 'Nunito', sans-serif;
 }
+
 #main-content-about p{
     display: flex;
-    font-size: 20px;
-    color: #97959C;
-
+    font-size: 12px;
+    color: #808080;
+    width: 400px;
+    line-height: 25px;
+    margin-left: 100px;
+    margin-bottom: 30px;
 }
+
 #main-content-about p:first-child{
-    padding-top: 100px;
+    padding-top: 150px;
+    font-size: 24px;
     color: black;
 }
-.premiere-lettre{
-    font-size: 48px;
+
+#main-content-about .premiere-lettre{
+    font-size: 50px;
     margin-right: 8px;
+    margin-top: 14px;
 }
-#main-content-about img{
-    height: 60px;
-    width: 300px;
+
+#main-contact{
+    font-family: 'Nunito', sans-serif;
+}
+
+#content-contact-left{
+    background-color: teal;
+    width: 400px;
+    height: 700px;
+    float: left;
+}
+
+#content-contact-left h3{
+    padding-top: 150px;
+    color: white;
+    font-size: 50px;
+    width: 50px;
+    height: 100px;
+    margin-left: 150px;
+}
+
+#content-contact-left P{
+    padding-top: 120px;
+    color: white;
+    font-size: 20px;
+    margin-left: 150px;
+}
+
+#main-content-contact{
+    background-color: white;
+    width: 550px;
+    height: 700px;
+    margin-left: 460px;
+}
+
+#main-content-contact .premiere-lettre{
+    font-size: 50px;
+    margin-right: 8px;
+    margin-top: 20px;
+}
+
+#main-content-contact p{
+    padding-top: 150px;
+    font-size: 24px;
+    color: black;
+    line-height: 30px;
+    margin-left: 100px;
+    margin-bottom: 30px;
 }
