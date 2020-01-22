@@ -1,8 +1,9 @@
-/* couleur des buttons  : #ACD6D4
+/* couleur des buttons  : #B5D3D3
 couleur logo Mitalent : #333333
 couleur de fond d'images photos portrait : #D8D8D6 
 couleur de fond de la page : #E5E5E5
 couleur gris sombre (titre, etc ?) #1A191E
+couleur bleu-verte : #B5D3D3
 
 */
 
@@ -26,6 +27,10 @@ body {
 
 
 /* Section Quentin */
+
+
+
+
 
 #mainCarousel {
     padding-top: 130px;
@@ -284,7 +289,7 @@ body {
 
     height: 300px;
     overflow: hidden;
-    background-color: aqua;
+    background-color: B5D3D3;
 }
 
 .imgslide img {
@@ -301,7 +306,7 @@ body {
 #EM {
     display: flex;
     align-items: center;
-    background-color: #ACD6D4;
+    background-color: #B5D3D3;
     width: 250px;
     height: 60px;
     margin: auto;
@@ -321,7 +326,7 @@ body {
 }
 
 .inslide {
-    background-color: #ACD6D4;
+    background-color: #B5D3D3;
     width: 275px;
     height: inherit;
     transition: opacity .25s ease-in-out;
@@ -338,7 +343,7 @@ img.inslide:hover {
 .profile {
     width: 1100px;
     min-height: 700px;
-    background-color: aqua;
+    background-color: B5D3D3;
     margin: auto;
     display: flex;
 }
@@ -472,7 +477,7 @@ img.inslide:hover {
 #rowItem--containerTitle {
     width: 260px;
     height: 100%;
-    background-color: #ACD6D4;
+    background-color: #B5D3D3;
     display: flex;
     flex-flow: column nowrap;
     justify-content: flex-end;
@@ -597,7 +602,7 @@ footer {
 
 #title-client a {
     padding: 10px 50px;
-    background-color: #ACD6D4;
+    background-color: #B5D3D3;
     border-radius: 3px;
 }
 
