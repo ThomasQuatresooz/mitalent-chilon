@@ -185,7 +185,7 @@ body {
 }
 
 
-.slides::-webkit-scrollbar {
+/* .slides::-webkit-scrollbar {
     width: 10px;
     height: 10px;
 }
@@ -211,6 +211,10 @@ body {
 
 .slidesabout::-webkit-scrollbar-track {
     background: transparent;
+} */
+
+.slides {
+    overflow: hidden;
 }
 
 .slides>div {
@@ -249,17 +253,18 @@ body {
     font-size: 100px;
 }
 
-div.imgslide {
-    width: 25%;
+.imgslide {
+
     height: 300px;
+    overflow: hidden;
     background-color: aqua;
 }
 
-.slidesabout div.imgslide {
-    width: 25%;
-    height: 300px;
-    background-color: black;
+.imgslide img {
+
+    object-fit: cover;
 }
+
 
 .buttonN {
     margin-top: 10px;
