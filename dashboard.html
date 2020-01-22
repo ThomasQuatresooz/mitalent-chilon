@@ -5,7 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Nunito|Poppins&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="navbar.css">
 
     <title>Dashboard</title>
 </head>
@@ -14,8 +16,28 @@
     <div id="mainContainer">
         <section id="section-client">
             <div id="top-grid">
-                <nav id="nav-client"></nav>
-                <div id="social-client">
+                <div id="nav-client">
+                    <img id="logo" src="icons/logo.svg" alt="">
+                    <nav id="navbar">
+                        <ul>
+                            <li><img src="icons/menu.svg" alt=""></li>
+                            <li>clients</li>
+                            <li>news</li>
+                        </ul>
+                        <img class="search" src="icons/search.svg" alt="">
+                    </nav>
+                </div>
+                <div id="socialBar--top-client">
+                    <ul>
+                        <li><a href=""><img src="icons/facebook.svg" alt=""></a></li>
+                        <li><a href=""><img src="icons/twitter.svg" alt=""></a></li>
+                        <li><a href=""><img src="icons/instagram.svg" alt=""></a></li>
+                        <li><a href=""><img src="icons/youtube.svg" alt=""></a></li>
+                    </ul>
+
+                    <div class="rotate">
+                        02 <div class="line"></div>
+                    </div>
 
                 </div>
                 <div id="title-client">
@@ -25,7 +47,6 @@
                     <div id="test"></div>
                 </div>
                 <div id="client-img">
-
                 </div>
                 <div id="info-client">
                     <div>
@@ -36,6 +57,7 @@
 
                     </div>
                 </div>
+                <div id="client-background"></div>
             </div>
         </section>
 
@@ -209,9 +231,104 @@
                         <h2>Nihil, inventore.</h2>
                     </div>
                 </a>
-                
+
             </div>
         </section>
+
+        <section id="social-connection">
+            <div id="social-connection--grid">
+                <div id="social-connection--main-photo"></div>
+                <div id="social-connection--blue"></div>
+                <div id="social-connection--sec-photo"></div>
+                <div id="social-connection--title">
+                    <h1>Social<br>Connections</h1>
+                </div>
+                <ul id="social-connection--mediaBar">
+                    <li><a href=""><img src="icons/facebook.svg" alt=""></a></li>
+                    <li><a href=""><img src="icons/twitter.svg" alt=""></a></li>
+                    <li><a href=""><img src="icons/instagram.svg" alt=""></a></li>
+                    <li><a href=""><img src="icons/youtube.svg" alt=""></a></li>
+                </ul>
+                <div id="social-connection--blue-sec"></div>
+                <div id="social-connection--upDown">
+
+                </div>
+                <div id="social-connection--content">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, harum aspernatur modi id
+                        facilis a placeat fugiat, provident voluptate sed quidem corporis, ducimus quas autem.</p>
+                    <div id="content--video">
+                        <img src="./icons/play-button-circle.svg" alt="play-button-circle">
+                        <p>Lorem, ipsum dolor.</p>
+                    </div>
+                </div>
+                <div id="social-connection--subtitle">
+                    <h5>On twitter</h5>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="lastest-news">
+            <h1>Lastest News</h1>
+            <hr>
+            <div id="client--grid-blog">
+                <div class="blog--item blog--item-mini" id="blog--item-mini1">
+                    <img src="./images/blog-mini-photo1.jpg" alt="">
+                    <div class="containerTitle">
+                        <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi!</h2>
+                        <h5>8 March 2020</h5>
+                    </div>
+                </div>
+                <div class="blog--item blog--item-mini" id="blog--item-mini2">
+                    <img src="./images/blog-mini-photo2.jpg" alt="">
+                    <div class="containerTitle">
+                        <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
+                        <h5>8 March 2020</h5>
+                    </div>
+                </div>
+                <div class="blog--item blog--item-mini" id="blog--item-mini3">
+                    <img src="images/blog-mini-photo3.jpg" alt="">
+                    <div class="containerTitle">
+                        <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat quis distinctio magnam
+                            recusandae.</h2>
+                        <h5>8 March 2020</h5>
+                    </div>
+                </div>
+                <div class="blog--item blog--item-mini" id="blog--item-mini4">
+                    <img src="./images/blog-mini-photo1.jpg" alt="">
+                    <div class="containerTitle">
+                        <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi!</h2>
+                        <h5>8 March 2020</h5>
+                    </div>
+                </div>
+                <div class="blog--item blog--item-mini" id="blog--item-mini5">
+                    <img src="./images/blog-mini-photo2.jpg" alt="">
+                    <div class="containerTitle">
+                        <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
+                        <h5>8 March 2020</h5>
+                    </div>
+                </div>
+                <div class="blog--item blog--item-mini" id="blog--item-mini6">
+                    <img src="images/blog-mini-photo3.jpg" alt="">
+                    <div class="containerTitle">
+                        <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat quis distinctio magnam
+                            recusandae.</h2>
+                        <h5>8 March 2020</h5>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="footer--info footer--info-left">
+                <img id="footer--logo" src="./icons/logo.svg" alt="logo-mitalent">
+                <h5>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae voluptatibus optio obcaecati.</h5>
+
+            </div>
+            <div class="footer--info footer--info-right">
+                <h3>sign up our newsletter</h3>
+
+            </div>
+        </footer>
     </div>
 </body>
 
