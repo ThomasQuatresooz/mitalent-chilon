@@ -180,3 +180,32 @@ img.search {
         transform: translate3d(0, 0, 0);
     }
 }
+
+/* client */
+
+#socialBar--top-client {
+    position: absolute;
+    top: 120px;
+    margin-left: 2em;
+    padding: 0;
+}
+
+#socialBar--top-client ul {
+    list-style: none;
+    padding: 0;
+}
+
+#socialBar--top-client li {
+    margin: 1.5em 0;
+
+}
+
+#socialBar--top-client .rotate {
+
+    position: absolute;
+    top: 320px;
+    font-size: 0.9em;
+
+    transform: rotate(-90deg);
+
+}

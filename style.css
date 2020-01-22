@@ -693,6 +693,12 @@ footer {
     flex-flow: row nowrap;
     justify-content: space-between;
     align-items: stretch;
+    font-family: 'Nunito',sans-serif;
+    margin: 4em 2em 1em;
+}
+
+#footer--logo{
+    height: 15px;
 }
 
 .footer--info {
@@ -704,6 +710,10 @@ footer {
 .footer--info-left {
     align-items: flex-start;
 }
+.footer--info-left h5{
+    font-size: xx-small;
+    font-weight: 100;
+}
 
 .footer--info-right {
     align-items: flex-end;
@@ -714,10 +724,7 @@ footer {
     margin: 0;
     width: 100%;
     background-color: #FFF;
-    /* background-image: linear-gradient(90deg, rgba(199, 220, 221, 1) 0%, rgba(208, 226, 226, 1) 100%);
-    background-size: ;
-    background-position: left 800px; */
-    height: 700px;
+    min-height: 700px;
 }
 
 #top-grid {
@@ -730,9 +737,10 @@ footer {
 
 }
 
+
+
 #nav-client {
     grid-area: 1 / 1 / 2 / 5;
-    background-color: rgba(255, 0, 0, 0.1) !important;
 }
 
 #social-client {
@@ -742,14 +750,16 @@ footer {
 
 #title-client {
     grid-area: 3 / 3 / 4 / 4;
-    background-color: rgba(199, 220, 221, 1);
-    padding: 85px 100px 100px 85px
+    background-color: #FFF;
+    padding: 85px 100px 100px 85px;
+    z-index: 1;
 }
 
 #title-client a {
     padding: 10px 50px;
     background-color: #ACD6D4;
     border-radius: 3px;
+    
 }
 
 #client-img {
@@ -773,6 +783,11 @@ footer {
     background-color: #FFF;
 }
 
+#client-background{
+    grid-area: 1 / 1 / 6 / 4;
+    background-image: linear-gradient(90deg, rgba(199, 220, 221, 1) 0%, rgba(208, 226, 226, 1) 100%);
+}
+
 /* gallery-code */
 
 #gallery {
@@ -784,6 +799,7 @@ footer {
     flex-flow: row wrap;
     justify-content: flex-start;
     align-items: flex-start;
+
 }
 
 .client {
@@ -799,6 +815,11 @@ footer {
     -webkit-transition: opacity .25s ease-in-out;
 }
 
+.gallery--content-info,
+.gallery--content-info * {
+    display: none;
+}
+
 .client:visited {
     color: #FFF;
 }
@@ -810,17 +831,11 @@ footer {
     flex-flow: column nowrap;
     justify-content: flex-end;
     align-items: center;
-
 }
 
 .client:hover .gallery--content-info * {
-    display: block;
-    opacity: 1;
-}
+    display: initial;
 
-
-#gallery--content .gallery--content-info {
-    display: none;
 }
 
 .gallery--content-info {
@@ -847,6 +862,150 @@ footer {
     border-radius: 17px;
     background-color: #ACD6D4;
 }
+
+/*Client Social Connection*/
+#social-connection{
+    font-family: 'Poppins',sans-serif;
+}
+#social-connection--grid {
+
+    display: grid;
+    grid-template-columns: 35px 100px 160px auto 100px 200px;
+    grid-template-rows: 170px 50px repeat(2, 115px) 35px 150px 35px;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+#social-connection--main-photo {
+    grid-area: 1 / 4 / 5 / 7;
+    background-image: url(./images/social-connection-main-photo.jpg);
+}
+
+#social-connection--blue {
+    grid-area: 2 / 5 / 5 / 7;
+    background-image: linear-gradient(90deg, rgba(199, 220, 221, 1) 0%, rgba(208, 226, 226, 1) 100%);
+}
+
+#social-connection--sec-photo {
+    grid-area: 4 / 6 / 7 / 7;
+    background-image: url(https://picsum.photos/200/300);
+}
+
+#social-connection--title {
+    grid-area: 3 / 3 / 4 / 5;
+}
+#social-connection--mediaBar{
+    grid-area: 3 / 5 / 4 / 6;
+    list-style: none;
+    margin: 6px auto 0 auto;
+    padding: 0;
+     display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+    fill: #FFF;
+}
+
+ #social-connection--mediaBar li{
+    margin: 0;
+}
+
+#social-connection--title h1 {
+    font-size: 3em;
+    font-weight: 200;
+    line-height: 1em;
+}
+
+#social-connection--title * {
+    margin: 0;
+}
+
+#social-connection--blue-sec {
+    grid-area: 3 / 1 / 8 / 2;
+    background-image: linear-gradient(90deg, rgba(199, 220, 221, 1) 0%, rgba(208, 226, 226, 1) 100%);
+}
+
+#social-connection--upDown {
+    grid-area: 6/3/7/4;
+    background-color: aqua;
+}
+
+#social-connection--content {
+    grid-area: 6 / 4 / 7 / 5;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#social-connection--content p {
+    width: 65%;
+    margin: 0 1em 0 0;
+    font-style: oblique;
+    font-weight: 100;
+}
+
+#content--video {
+    width: max-content;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#content--video img{
+    width: 50px;
+    height: 50px;
+    margin-right: 1em;
+}
+
+#social-connection--subtitle {
+    grid-area: 4 / 3 / 5 / 4;
+    font-family: 'Nunito',sans-serif;
+    font-size: small;
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+/* Client - Lastest News */
+
+#lastest-news{
+    font-family: 'Poppins',sans-serif;
+}
+#lastest-news h1{
+    text-align: center;
+}
+
+#lastest-news hr{
+    width: 75px;
+    text-align: center;
+    margin-bottom: 2em;
+    
+}
+
+#client--grid-blog{
+    margin: 1rem auto;
+    padding: 0;
+    width: max-content;
+    display: grid;
+    grid-template-columns: repeat(3, 325px);
+    grid-template-rows: 90px 90px;
+    grid-column-gap: 32.5px;
+    grid-row-gap: 32.5px;
+}
+
+#blog--item-mini4{
+    grid-area: 2 / 1 / 2 / 2;
+}
+
+#blog--item-mini5{
+    grid-area: 2 / 2 / 2 / 3;
+}
+#blog--item-mini6{
+    grid-area: 2 / 3 / 2 / 4;
+}
+
+
+
 
 /* Section Safiye */
 /* About Style */
