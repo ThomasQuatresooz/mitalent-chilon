@@ -1092,7 +1092,7 @@ footer {
 
 #main-content-contact {
     background-color: white;
-    width: 550px;
+    width: 600px;
     height: 700px;
     margin-left: 460px;
     margin-top: -112px;
@@ -1107,9 +1107,10 @@ footer {
 #main-content-contact p {
     padding-top: 200px;
     font-size: 24px;
+    width: 500px;
     color: black;
     line-height: 30px;
-    margin-left: 100px;
+    margin-left: 30px;
     margin-bottom: 30px;
 }
 #info-contact img{
@@ -1118,7 +1119,7 @@ footer {
 }
 
 #info-contact{
-    margin-left: 100px;
+    margin-left: 30px;
     color: #808080;
 }
 
