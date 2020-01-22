@@ -1,16 +1,41 @@
 #navbar {
-    padding: 1em;
+    display: grid;
+    grid-template-columns: repeat(24, 1fr);
+    grid-template-rows: 1fr;
     position: relative;
-    display: flex;
-    /* background-color: rgba(255, 105, 180, 0.562); */
-    justify-content: space-between;
     align-items: center;
+    padding: 0 1em;
+
+}
+
+
+.search {
+    grid-row: 1;
+    grid-column: 24/25;
+}
+
+#navbar>ul {
+    grid-row: 1;
+    grid-column: 2/5;
 }
 
 img.search {
     width: 18px;
+    justify-self: right;
 }
 
+#logo {
+    grid-column: 11/15;
+    height: 18px;
+}
+
+.dropdown {
+
+    grid-column: 1/2;
+    grid-row: 1;
+}
+
+/* 
 #logo {
     position: absolute;
     left: 0;
@@ -19,9 +44,9 @@ img.search {
     margin-left: auto;
     margin-right: auto;
     height: 18px;
-}
+} */
 
-#navbar ul {
+#navbar>ul {
     padding: 0;
     display: flex;
     align-items: center;
@@ -32,7 +57,7 @@ img.search {
     color: #1A191E;
 }
 
-#navbar li {
+#navbar>ul>li {
     display: flex;
     padding: 0 1em;
     font-size: 0.8em;
@@ -41,7 +66,7 @@ img.search {
 
 #socialBar--top {
     position: absolute;
-    top: 190px;
+    top: 160px;
     margin-left: 2em;
     padding: 0;
 }
@@ -74,4 +99,84 @@ img.search {
     bottom: 10px;
     left: 60px;
 
+}
+
+
+
+
+
+.dropdown ul {
+
+    list-style: none;
+    padding: 0;
+
+}
+
+.dropdown li {
+    padding: 0.5em;
+}
+
+.dropdown a {
+    font-family: 'Nunito';
+    text-transform: capitalize;
+    color: white;
+    font-weight: bold;
+    font-size: 1em;
+    text-decoration: none;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    background-image: linear-gradient(90deg, rgba(199, 220, 221, 1) 0%, rgba(208, 226, 226, 1) 100%);
+    z-index: 1;
+}
+
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    animation: bounceInDown 1s;
+
+
+}
+
+@keyframes bounceInDown {
+
+    from,
+    60%,
+    75%,
+    90%,
+    to {
+        -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+        animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    }
+
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -3000px, 0);
+        transform: translate3d(0, -3000px, 0);
+    }
+
+    60% {
+        opacity: 1;
+        -webkit-transform: translate3d(0, 25px, 0);
+        transform: translate3d(0, 25px, 0);
+    }
+
+    75% {
+        -webkit-transform: translate3d(0, -10px, 0);
+        transform: translate3d(0, -10px, 0);
+    }
+
+    90% {
+        -webkit-transform: translate3d(0, 5px, 0);
+        transform: translate3d(0, 5px, 0);
+    }
+
+    to {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
 }
