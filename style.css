@@ -571,6 +571,7 @@ footer {
     flex-flow: row wrap;
     justify-content: flex-start;
     align-items: flex-start;
+
 }
 
 .client {
@@ -586,6 +587,11 @@ footer {
     -webkit-transition: opacity .25s ease-in-out;
 }
 
+.gallery--content-info,
+.gallery--content-info * {
+    display: none;
+}
+
 .client:visited {
     color: #FFF;
 }
@@ -597,17 +603,11 @@ footer {
     flex-flow: column nowrap;
     justify-content: flex-end;
     align-items: center;
-
 }
 
 .client:hover .gallery--content-info * {
-    display: block;
-    opacity: 1;
-}
+    display: initial;
 
-
-#gallery--content .gallery--content-info {
-    display: none;
 }
 
 .gallery--content-info {
