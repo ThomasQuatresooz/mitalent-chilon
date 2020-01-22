@@ -185,7 +185,7 @@ body {
 }
 
 
-/* .slides::-webkit-scrollbar {
+.slides::-webkit-scrollbar {
     width: 10px;
     height: 10px;
 }
@@ -211,9 +211,9 @@ body {
 
 .slidesabout::-webkit-scrollbar-track {
     background: transparent;
-} */
+}
 
-.slides {
+*/ .slides {
     overflow: hidden;
 }
 
@@ -322,9 +322,16 @@ img.inslide:hover {
     width: 400px;
 }
 
+.imgprofile2 img {
+    width: 450px;
+    height: 600px;
+    object-fit: cover;
+}
+
 .profile {
     width: 1100px;
     margin: auto;
+    margin-bottom: 80px;
     display: flex;
     justify-content: space-around;
     align-content: center;
@@ -342,6 +349,7 @@ img.inslide:hover {
 #texteprofile h1 {
     font-size: 40px;
     font-weight: lighter;
+    font-family: 'Nunito', sans-serif;
 }
 
 #texteprofile h2 {
@@ -368,6 +376,106 @@ img.inslide:hover {
     font-size: 14px;
     line-height: 1.6;
     color: #808080;
+}
+
+#link {
+    display: flex;
+    flex-flow: row wrap;
+    font-family: 'Nunito', sans-serif;
+    width: 455px;
+}
+
+
+
+.txtvid {
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 137px;
+}
+
+.txtvid p {
+    margin-bottom: 0;
+}
+
+#titresection3 {
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+
+#texteprofile hr {
+    margin-top: 20px;
+    margin-bottom: 25px;
+    width: 20%;
+    float: left;
+    border: solid black 0.7px;
+}
+
+.video {
+    margin-bottom: 30px;
+}
+
+#link h2 {
+    width: 190px;
+    margin-top: 0;
+}
+
+#link p {
+    font-size: 14px;
+    color: #808080;
+}
+
+#link a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.similar {
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    flex-direction: row wrap;
+    justify-content: space-around;
+}
+
+#simg,
+#simd {
+    width: 500px;
+    margin-bottom: 50px;
+}
+
+#simg h1 {
+    font-size: 40px;
+    font-weight: lighter;
+    font-family: 'Nunito',
+        sans-serif;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#simg hr {
+    margin-top: 20px;
+    margin-bottom: 25px;
+    width: 20%;
+    float: left;
+    border: solid black 0.7px;
+}
+
+#simd p {
+    font-size: 14px;
+    color: #808080;
+}
+
+#simd a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-size: 10px;
+    font-weight: bold;
 }
 
 /* page profile */
@@ -715,7 +823,7 @@ footer {
 
 /* Section Safiye */
 /* About Style */
-#main-about{
+#main-about {
     background-image: url(images/aboutRobot.jpeg);
     background-size: 400px 700px;
     background-repeat: no-repeat;
@@ -730,11 +838,11 @@ footer {
     font-family: 'Nunito', sans-serif;
 }
 
-#about-bouton-motivation a{
+#about-bouton-motivation a {
     text-decoration: none;
 }
 
-#about-bouton-motivation button{
+#about-bouton-motivation button {
     height: 160px;
     width: 400px;
     color: white;
@@ -744,7 +852,7 @@ footer {
     margin-left: 100px;
 }
 
-#main-content-about p{
+#main-content-about p {
     display: flex;
     font-size: 12px;
     color: #808080;
@@ -768,7 +876,7 @@ footer {
 
 /* Contact Style */
 
-#main-contact{
+#main-contact {
     font-family: 'Nunito', sans-serif;
 }
 
@@ -779,7 +887,7 @@ footer {
     float: left;
 }
 
-#content-contact-left h3{
+#content-contact-left h3 {
     padding-top: 120px;
     color: white;
     font-size: 60px;
@@ -788,7 +896,7 @@ footer {
     margin-left: 150px;
 }
 
-#content-contact-left P{
+#content-contact-left P {
     padding-top: 0px;
     color: white;
     font-size: 20px;
@@ -808,7 +916,7 @@ footer {
     margin-top: 20px;
 }
 
-#main-content-contact p{
+#main-content-contact p {
     padding-top: 200px;
     font-size: 24px;
     color: black;
@@ -817,33 +925,33 @@ footer {
     margin-bottom: 30px;
 }
 
-#grid-contact{
+#grid-contact {
     display: grid;
     grid-template-columns: 10% 30% 10% 30%;
     grid-template-rows: 50% 50%;
     grid-gap: 10%;
 }
 
-#grid-contact img{
+#grid-contact img {
     height: 20px;
     width: 20px;
 }
 
-#contact-adress{
+#contact-adress {
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 1;
     grid-row-end: 1;
 }
 
-#contact-phone{
+#contact-phone {
     grid-column-start: 3;
     grid-column-end: 4;
     grid-row-start: 1;
     grid-row-end: 1;
 }
 
-#contact-email{
+#contact-email {
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 2;
