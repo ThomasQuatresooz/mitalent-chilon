@@ -30,6 +30,7 @@ body {
 }
 
 
+
 /* Section Quentin */
 
 #faceHeader {
@@ -56,9 +57,18 @@ body {
 #portrait {
     grid-column: 2/4;
     grid-row: 1/5;
-    background-image: url("images/derek.jpg");
+    /* background-image: url("images/derek.jpg"); */
+    background-color: blue;
     background-position: 0px;
     background-size: cover;
+    overflow: hidden;
+
+}
+
+#portrait>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 
 }
 
@@ -93,7 +103,19 @@ body {
     font-weight: 600;
 }
 
-#ficheTalent__profil__nav {}
+#ficheTalent__profil__nav {
+
+    grid-column: 1/2;
+    grid-row: 2/3;
+    justify-self: right;
+    align-self: center;
+
+}
+
+#ficheTalent__profil__nav svg {
+    height: 16px;
+
+}
 
 
 
@@ -1020,11 +1042,14 @@ footer {
     transition-duration: 0.3s;
     -webkit-transition-property: box-shadow;
     transition-property: box-shadow;
-  }
-  .hvr-box-shadow-outset:hover, .hvr-box-shadow-outset:focus, .hvr-box-shadow-outset:active {
+}
+
+.hvr-box-shadow-outset:hover,
+.hvr-box-shadow-outset:focus,
+.hvr-box-shadow-outset:active {
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
-  }
-  
+}
+
 
 
 #title-client a:visited {
@@ -1089,7 +1114,7 @@ footer {
     }
 }
 
-.arrow-right:hover{
+.arrow-right:hover {
     animation: ease 0.5s forwards moveArrowRight;
 
 }
@@ -1411,7 +1436,7 @@ footer {
     margin: 0;
 }
 
-#social-connection--mediaBar li:hover{
+#social-connection--mediaBar li:hover {
     fill: #808080;
 }
 
@@ -1474,16 +1499,17 @@ footer {
     margin-right: 1em;
 }
 
-#content--video img:hover{
+#content--video img:hover {
     animation: forwards 0.5s ease videoScale;
 }
 
-@keyframes videoScale{
-    from{
+@keyframes videoScale {
+    from {
         transform: scale(1);
     }
-    to{
-        transform: scale(1.2    );
+
+    to {
+        transform: scale(1.2);
     }
 }
 
@@ -1595,11 +1621,11 @@ footer {
     padding-top: 55px;
 }
 
-#main-content-about a:hover{
+#main-content-about a:hover {
     background: linear-gradient(135deg, black, grey);
 }
 
-#about-button a:first-child{
+#about-button a:first-child {
     display: block;
     text-decoration: none;
     background-color: #ACD6D4;
@@ -1629,12 +1655,12 @@ footer {
     padding-top: 20px;
 }
 
-#about-button a:hover:first-child{
+#about-button a:hover:first-child {
     font-size: 20px;
     background-color: rgb(93, 192, 187);
 }
 
-#about-button img:hover{
+#about-button img:hover {
     height: 30px;
     width: 30px;
 }
@@ -1685,12 +1711,12 @@ footer {
     padding-top: 20px;
 }
 
-#contact-button a:hover:first-child{
+#contact-button a:hover:first-child {
     font-size: 20px;
     background-color: rgb(93, 192, 187);
 }
 
-#contact-button a{
+#contact-button a {
     display: block;
     height: 70px;
     width: 70px;
@@ -1707,7 +1733,7 @@ footer {
     height: 20px;
 }
 
-#contact-button img:hover{
+#contact-button img:hover {
     height: 30px;
     width: 30px;
 }

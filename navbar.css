@@ -24,14 +24,37 @@ img.search {
     justify-self: right;
 }
 
-#logo {
+#logoLink {
+    display: block;
     grid-column: 11/15;
-    height: 18px;
 }
+
+#logo {
+
+    height: 18px;
+
+}
+
+#burger:hover {
+    cursor: pointer;
+}
+
+
 
 .dropdown {
     grid-column: 1/2;
     grid-row: 1;
+}
+
+.dropdown>svg {
+    stroke: #1A191E;
+
+}
+
+
+.dropdown:hover>svg {
+    stroke: #B5D3D3;
+
 }
 
 #navbar>ul>li>a {
@@ -109,6 +132,7 @@ img.search {
 
 .dropdown li {
     padding: 0.5em;
+
 }
 
 .dropdown a {
@@ -120,9 +144,19 @@ img.search {
     text-decoration: none;
 }
 
-.dropdown a:hover {
-    font-weight: 100;
+.dropdown a:hover {}
+
+.dropdown li:hover {
+    background-color: white;
+    transition: background-color 0.5s;
+
 }
+
+.dropdown li:hover a {
+    color: #B5D3D3;
+}
+
+
 
 .dropdown-content {
     display: none;
@@ -134,7 +168,7 @@ img.search {
 
 .dropdown:hover .dropdown-content {
     display: block;
-    animation: bounceInDown 1s;
+    animation: bounceInDown 0.8s;
 }
 
 @keyframes bounceInDown {
