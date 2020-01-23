@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="navbar.css">
     <link href="https://fonts.googleapis.com/css?family=Nunito|Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
     <title>Homepage</title>
 </head>
 
@@ -65,15 +66,18 @@
 
         <nav id="navbar" role="navigation">
 
-            <img id="logo" src="icons/logo.svg" alt="">
+            <a id="logoLink" href="index.html"><img id="logo" src="icons/logo.svg" alt=""></a>
             <div class="dropdown">
-                <span><img id="burger" src="icons/menu.svg" alt=""></span>
+                <!-- <img id="burger" src="icons/menu.svg" alt=""> -->
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke-linecap="round"
+                    stroke-linejoin="round" stroke-width="2" class="feather feather-menu">
+                    <path d="M3 12h18M3 6h18M3 18h18" /></svg>
                 <div class="dropdown-content">
                     <ul>
                         <li><a href="about.html">About us</a></li>
                         <li><a href="dashboard.html">dashboard</a></li>
                         <li><a href="contact.html">contact</a></li>
-                        <li><a href="#"></a></li>
+
                     </ul>
                 </div>
             </div>
@@ -81,8 +85,8 @@
 
 
             <ul>
-                <li><a href="#">clients</a></li>
-                <li><a href="#">news</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
             </ul>
 
             <img class="search" src="icons/search.svg" alt="">
@@ -96,6 +100,13 @@
             <div id="ficheTalent">
                 <a class="button" href="#">view profile </a>
                 <div id="portrait">
+
+                    <img src="images/derek.jpg" alt="">
+
+
+
+
+
                     <div id="name">
                         <h1>Derek <br>Anderson</h1>
                         <h2>British comedian</h2>
