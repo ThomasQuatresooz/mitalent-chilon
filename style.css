@@ -752,6 +752,20 @@ li {
     text-align: center;
 }
 
+.blog--item{
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow;
+    transition-property: box-shadow;
+  }
+  .blog--item:hover, .blog--item:focus, .blog--item:active {
+    box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+  }
+  
+
 .blog--item-mini {
     display: flex;
     flex-flow: row nowrap;
@@ -1568,8 +1582,13 @@ footer {
     grid-area: 2 / 3 / 2 / 4;
 }
 
+/*PROFIL4*/
+/*main*/
 
 
+
+
+/*END THOMAS Q*/
 
 /* Section Safiye */
 /* About Style */
