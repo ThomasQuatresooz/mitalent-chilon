@@ -282,7 +282,6 @@ body {
 
 
 .imgslide {
-
     height: 300px;
     overflow: hidden;
     background-color: #B5D3D3;
@@ -349,6 +348,7 @@ body {
 #sectionprofile {
     width: 1200px;
     margin: auto;
+    margin-top: 70px;
     background-color: white;
 }
 
@@ -384,6 +384,41 @@ body {
     margin-right: 19px;
 }
 
+#texteprofile {
+    height: 570px;
+    overflow: hidden;
+    width: 400px;
+
+}
+
+#carouselprofile1,
+#carouselprofile2,
+#carouselprofile3,
+#carouselprofile4 {
+    scroll-snap-align: start;
+    width: inherit;
+    height: inherit;
+    background-color: white;
+    position: relative;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+#carouselprofile3 h1 {
+    width: 100%;
+}
+
+#carouselprofile3 h2 {
+    margin-bottom: 0px;
+}
+
+#carouselprofile3 ul {
+    margin-top: 0px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
 #texteprofile h1 {
     font-size: 40px;
     font-weight: lighter;
@@ -395,7 +430,7 @@ body {
     font-weight: lighter;
 }
 
-#texteprofile h3 {
+#texteprofile {
     font-size: 15px;
     font-weight: lighter;
 }
@@ -1308,7 +1343,7 @@ footer {
     margin-top: 14px;
 }
 
-#main-content-about a{
+#main-content-about a {
     display: block;
     background-color: black;
     height: 120px;
@@ -1322,7 +1357,7 @@ footer {
     padding-top: 55px;
 }
 
-#about-button a:first-child{
+#about-button a:first-child {
     display: block;
     text-decoration: none;
     background-color: #ACD6D4;
@@ -1336,12 +1371,12 @@ footer {
     padding-top: 20px;
 }
 
-#about-button img{
+#about-button img {
     height: 20px;
     width: 20px;
 }
 
-#about-button a{
+#about-button a {
     display: block;
     height: 60px;
     width: 60px;
@@ -1382,7 +1417,7 @@ footer {
     margin-left: 150px;
 }
 
-#contact-button a:first-child{
+#contact-button a:first-child {
     width: 200px;
     height: 40px;
     display: block;
@@ -1398,7 +1433,7 @@ footer {
     padding-top: 20px;
 }
 
-#contact-button a{
+#contact-button a {
     display: block;
     height: 70px;
     width: 70px;
@@ -1410,7 +1445,7 @@ footer {
     padding-top: 20px;
 }
 
-#contact-button img{
+#contact-button img {
     width: 20px;
     height: 20px;
 }
