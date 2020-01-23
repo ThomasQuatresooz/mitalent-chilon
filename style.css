@@ -592,7 +592,7 @@ body {
 /* Section Thomas */
 #blog-section {
     display: block;
-    margin: auto;
+    margin: 3em auto;
     padding: 0;
     font-family: 'Poppins', sans-serif;
 
@@ -631,6 +631,7 @@ body {
     flex-flow: row nowrap;
     justify-content: space-between;
     align-items: stretch;
+    font-family: 'Poppins';
 }
 
 .blog--item-mini .containerTitle {
@@ -640,6 +641,20 @@ body {
 .blog--item-mini img {
     height: 90px;
     width: 130px;
+}
+
+.blog--item-mini h2 {
+    font-size: 0.8em;
+    margin-top: 0;
+    overflow: hidden;
+    color: #1A191E;
+}
+
+.blog--item-mini h5 {
+    font-size: 0.5em;
+    margin-bottom: 0;
+    font-weight: 100;
+    color: #808080;
 }
 
 #blog--item-mini1 {
@@ -687,15 +702,6 @@ body {
     background-image: url(./images/blog-col-photo.jpg);
 }
 
-.blog--item-mini h2 {
-    font-size: 0.5em;
-    margin-top: 0;
-}
-
-.blog--item-mini h5 {
-    font-size: 0.3em;
-    margin-bottom: 0;
-}
 
 .itemMini--info {
     margin-left: 1rem;
@@ -721,6 +727,9 @@ body {
     margin: 5px 5px 0 0;
     padding: 7px 30px;
     color: black;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 0.8em;
     font-family: 'Nunito', sans-serif;
 }
 
@@ -754,15 +763,18 @@ body {
     width: 100%;
     height: 90px;
     background-color: #FFF;
-    font-size: 0.5em;
 }
 
 .containerTitle-bottom h2 {
     margin: 15px 0 0 0;
+    font-size: 0.8em;
+    color: #1A191E;
 }
 
 .containerTitle-bottom h5 {
     margin: 0;
+    font-size: 0.6em;
+    color: #808080;
 }
 
 .blog--item-col {
@@ -775,6 +787,7 @@ footer {
     justify-content: space-between;
     align-items: stretch;
     font-family: 'Nunito', sans-serif;
+    color: #1A191E;
     margin: 4em 2em 1em;
 }
 
@@ -799,6 +812,47 @@ footer {
 
 .footer--info-right {
     align-items: flex-end;
+}
+
+.footer--info-right h3 {
+    margin: 0;
+    font-size: 1em;
+    color: #1A191E;
+}
+
+.footer--info-right #mailto {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-items: center;
+    text-decoration: none;
+}
+
+#mailto:visited {
+    color: #1A191E;
+}
+
+
+
+.footer--info-right img {
+    width: 1em;
+    margin-left: 2em;
+}
+
+#footer--mediaBar {
+    list-style: none;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+#footer--mediaBar svg {
+    width: 1em;
+    margin-left: 1em;
+    fill: #1A191E;
 }
 
 /* client-style */
@@ -841,7 +895,16 @@ footer {
     padding: 10px 50px;
     background-color: #ACD6D4;
     border-radius: 3px;
+}
 
+#title-client a:hover {
+    animation: pulse 1s forwards;
+    background-color: #ACD6D4;
+}
+
+
+#title-client a:visited {
+    color: #FFF;
 }
 
 #client-img {
@@ -857,12 +920,46 @@ footer {
     flex-flow: row nowrap;
     justify-content: space-between;
     align-items: stretch;
+    font-family: 'Poppins', sans-serif;
+}
+
+#info-client h2 {
+    margin: 0 0 0 3rem;
+    font-size: 2em;
+    font-weight: 300;
+}
+
+#info-client h5 {
+    margin: 2rem 0 0 3rem;
+    font-size: 0.7em;
+    font-weight: 100;
+    text-transform: uppercase;
 }
 
 #info-client--buttonUpDown {
     width: 80px;
     height: 100%;
     background-color: #FFF;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#info-client--buttonUpDown img {
+    width: 1em;
+}
+
+.arrow-right {
+    transform: rotate(0.5turn);
+}
+
+.arrow-up {
+    transform: rotate(0.25turn);
+}
+
+.arrow-down {
+    transform: rotate(-0.25turn);
 }
 
 #client-background {
@@ -876,6 +973,19 @@ footer {
     margin: 1rem 35px;
 }
 
+#list-links li {
+    margin-right: 2em;
+}
+
+#list-links #active {
+    color: #1A191E;
+}
+
+#list-links li:hover {
+    text-decoration: underline solid 1px;
+    color: #1A191E;
+}
+
 #gallery--content {
     display: flex;
     flex-flow: row wrap;
@@ -884,12 +994,34 @@ footer {
 
 }
 
+#client1 {
+    background-image: url(./images/derek.jpg);
+}
+
+#client2 {
+    background-image: url(./images/anna.jpg);
+}
+
+#client3 {
+    background-image: url(./images/profile/derekounet2.png);
+}
+
+#client4 {
+    background-image: url(./images/old-woman.jpg);
+}
+
+#client5 {
+    background-image: url(./images/glass-woman.jpg);
+}
+
 .client {
     width: 25%;
     height: 310px;
     background-color: black;
     background-image: url(https://picsum.photos/300/310);
-
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     text-decoration: none;
     color: #FFF;
     transition: opacity .25s ease-in-out;
@@ -947,6 +1079,7 @@ footer {
 
 /*Client Social Connection*/
 #social-connection {
+    margin-top: 2em;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -1011,7 +1144,15 @@ footer {
 
 #social-connection--upDown {
     grid-area: 6/3/7/4;
-    background-color: aqua;
+    background-color: #fff;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+#social-connection--upDown img {
+    width: 1em;
 }
 
 #social-connection--content {
@@ -1019,13 +1160,14 @@ footer {
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
+    color: #808080;
 }
 
 #social-connection--content p {
     width: 65%;
     margin: 0 1em 0 0;
-    font-style: oblique;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: 100;
 }
 
@@ -1035,6 +1177,7 @@ footer {
     flex-flow: row nowrap;
     justify-content: space-evenly;
     align-items: center;
+    color: #1A191E;
 }
 
 #content--video img {
