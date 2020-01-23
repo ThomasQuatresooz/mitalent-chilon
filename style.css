@@ -511,7 +511,7 @@ img.inslide:hover {
 /* Section Thomas */
 #blog-section {
     display: block;
-    margin: auto;
+    margin: 3em auto;
     padding: 0;
     font-family: 'Poppins', sans-serif;
 }
@@ -747,7 +747,7 @@ footer {
     text-decoration: none;
 }
 
-#mailto:visited{
+#mailto:visited {
     color: #1A191E;
 }
 
@@ -830,6 +830,12 @@ footer {
     color: #FFF;
 }
 
+#title-client a:hover {
+    animation: pulse 1s forwards;
+    background-color: #ACD6D4;
+}
+
+
 #title-client a:visited {
     color: #FFF;
 }
@@ -872,17 +878,20 @@ footer {
     justify-content: space-evenly;
     align-items: center;
 }
-#info-client--buttonUpDown img{
+
+#info-client--buttonUpDown img {
     width: 1em;
 }
 
-.arrow-right{
+.arrow-right {
     transform: rotate(0.5turn);
 }
-.arrow-up{
+
+.arrow-up {
     transform: rotate(0.25turn);
 }
-.arrow-down{
+
+.arrow-down {
     transform: rotate(-0.25turn);
 }
 
@@ -930,8 +939,12 @@ footer {
     margin-right: 2em;
 }
 
+#list-links #active {
+    color: #1A191E;
+}
+
 #list-links li:hover {
-    text-decoration: underline;
+    text-decoration: underline solid 1px;
     color: #1A191E;
 }
 
@@ -942,19 +955,23 @@ footer {
     align-items: flex-start;
 }
 
-#client1{
+#client1 {
     background-image: url(./images/derek.jpg);
 }
-#client2{
+
+#client2 {
     background-image: url(./images/anna.jpg);
 }
-#client3{
+
+#client3 {
     background-image: url(./images/profile/derekounet2.png);
 }
-#client4{
+
+#client4 {
     background-image: url(./images/old-woman.jpg);
 }
-#client5{
+
+#client5 {
     background-image: url(./images/glass-woman.jpg);
 }
 
@@ -1098,7 +1115,7 @@ footer {
     align-items: flex-start;
 }
 
-#social-connection--upDown img{
+#social-connection--upDown img {
     width: 1em;
 }
 
