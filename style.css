@@ -1114,32 +1114,19 @@ footer {
 /* About Style */
 #main-about {
     background-image: url(images/aboutRobot.jpeg);
-    background-size: 400px 700px;
+    background-size: 400px 800px;
     background-repeat: no-repeat;
+    font-family: 'Nunito', sans-serif;
     margin-bottom: 50px;
 }
 
 #main-content-about {
     background-color: white;
     width: 550px;
-    height: 700px;
+    height: 800px;
     margin-left: 460px;
-    font-family: 'Nunito', sans-serif;
     margin-top: -112px;
-}
-
-#about-bouton-motivation a {
-    text-decoration: none;
-}
-
-#about-bouton-motivation button {
-    height: 160px;
-    width: 400px;
-    color: white;
-    font-family: 'Poppins', sans-serif;
-    font-size: 20px;
-    background-color: black;
-    margin-left: 100px;
+    padding-top: 60px;
 }
 
 #main-content-about p {
@@ -1164,6 +1151,50 @@ footer {
     margin-top: 14px;
 }
 
+#main-content-about a{
+    display: block;
+    background-color: black;
+    height: 120px;
+    width: 400px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    margin-left: 100px;
+    margin-top: 80px;
+    padding-top: 55px;
+}
+
+#about-button a:first-child{
+    display: block;
+    text-decoration: none;
+    background-color: #ACD6D4;
+    text-align: center;
+    width: 200px;
+    height: 40px;
+    color: white;
+    font-size: 16px;
+    float: left;
+    margin-top: 740px;
+    padding-top: 20px;
+}
+
+#about-button img{
+    height: 20px;
+    width: 20px;
+}
+
+#about-button a{
+    display: block;
+    height: 60px;
+    width: 60px;
+    float: left;
+    margin-top: 740px;
+    background-color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+
 /* Contact Style */
 #main-contact {
     font-family: 'Nunito', sans-serif;
@@ -1171,9 +1202,10 @@ footer {
 
 #content-contact-left {
     background-color: teal;
-    width: 400px;
+    width: 450px;
     height: 700px;
     float: left;
+    padding-top: 80px;
 }
 
 #content-contact-left h3 {
@@ -1188,16 +1220,50 @@ footer {
 #content-contact-left P {
     padding-top: 0px;
     color: white;
-    font-size: 20px;
+    font-size: 16px;
     margin-left: 150px;
+}
+
+#contact-button a:first-child{
+    width: 200px;
+    height: 40px;
+    display: block;
+    background-color: #ACD6D4;
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+    margin-top: 600px;
+    float: left;
+    margin-left: -270px;
+    margin-top: 720px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+#contact-button a{
+    display: block;
+    height: 70px;
+    width: 70px;
+    background-color: white;
+    text-align: center;
+    float: left;
+    margin-left: -70px;
+    margin-top: 720px;
+    padding-top: 20px;
+}
+
+#contact-button img{
+    width: 20px;
+    height: 20px;
 }
 
 #main-content-contact {
     background-color: white;
-    width: 600px;
+    width: 550px;
     height: 700px;
-    margin-left: 460px;
+    margin-left: 500px;
     margin-top: -112px;
+    padding-top: 50px;
 }
 
 #main-content-contact .premiere-lettre {
@@ -1209,7 +1275,7 @@ footer {
 #main-content-contact p {
     padding-top: 200px;
     font-size: 24px;
-    width: 500px;
+    width: 450px;
     color: black;
     line-height: 30px;
     margin-left: 30px;
@@ -1222,7 +1288,7 @@ footer {
 }
 
 #info-contact {
-    margin-left: 100px;
+    margin-left: 30px;
     color: #808080;
 }
 
