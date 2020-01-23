@@ -793,6 +793,7 @@ footer {
 
 #footer--logo {
     height: 15px;
+    margin-bottom: 3em;
 }
 
 .footer--info {
@@ -816,7 +817,7 @@ footer {
 
 .footer--info-right h3 {
     margin: 0;
-    font-size: 1em;
+    font-size: 0.7em;
     color: #1A191E;
 }
 
@@ -826,6 +827,7 @@ footer {
     justify-content: flex-end;
     align-items: center;
     text-decoration: none;
+    text-transform: uppercase;
 }
 
 #mailto:visited {
