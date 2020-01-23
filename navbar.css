@@ -1,13 +1,13 @@
 #navbar {
+    position: absolute;
+    top: 0;
     display: grid;
     grid-template-columns: repeat(24, 1fr);
     grid-template-rows: 1fr;
-    position: relative;
     align-items: center;
-    padding: 0 1em;
-
+    justify-items: center;
+    padding: 1em;
 }
-
 
 .search {
     grid-row: 1;
@@ -30,21 +30,19 @@ img.search {
 }
 
 .dropdown {
-
     grid-column: 1/2;
     grid-row: 1;
 }
 
-/* 
-#logo {
-    position: absolute;
-    left: 0;
-    right: 0;
-    margin-top: 2em;
-    margin-left: auto;
-    margin-right: auto;
-    height: 18px;
-} */
+#navbar>ul>li>a {
+    font-family: 'Nunito';
+    text-decoration: none;
+    color: #1A191E;
+}
+
+#navbar>ul>li>a:hover {
+    opacity: 70%;
+}
 
 #navbar>ul {
     padding: 0;
@@ -78,38 +76,35 @@ img.search {
 
 #socialBar--top li {
     margin: 1.5em 0;
-
 }
 
 #socialBar--top .rotate {
-
     position: absolute;
     top: 320px;
     font-size: 0.9em;
-
     transform: rotate(-90deg);
+}
 
+#socialBar--top svg {
+    height: 1em;
+    fill: black;
+}
+
+#socialBar--top svg:hover {
+    fill: #B5D3D3;
 }
 
 .line {
-
     position: absolute;
     width: 60px;
     border: solid 1px black;
     bottom: 10px;
     left: 60px;
-
 }
 
-
-
-
-
 .dropdown ul {
-
     list-style: none;
     padding: 0;
-
 }
 
 .dropdown li {
@@ -125,6 +120,10 @@ img.search {
     text-decoration: none;
 }
 
+.dropdown a:hover {
+    font-weight: 100;
+}
+
 .dropdown-content {
     display: none;
     position: absolute;
@@ -133,13 +132,9 @@ img.search {
     z-index: 1;
 }
 
-
-
 .dropdown:hover .dropdown-content {
     display: block;
     animation: bounceInDown 1s;
-
-
 }
 
 @keyframes bounceInDown {
@@ -182,7 +177,6 @@ img.search {
 }
 
 /* client */
-
 #socialBar--top-client {
     position: absolute;
     top: 120px;
@@ -197,15 +191,11 @@ img.search {
 
 #socialBar--top-client li {
     margin: 1.5em 0;
-
 }
 
 #socialBar--top-client .rotate {
-
     position: absolute;
     top: 320px;
     font-size: 0.9em;
-
     transform: rotate(-90deg);
-
 }
