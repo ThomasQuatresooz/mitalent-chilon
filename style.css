@@ -343,7 +343,6 @@ body {
 
 
 .imgslide {
-
     height: 300px;
     overflow: hidden;
     background-color: #B5D3D3;
@@ -410,6 +409,7 @@ body {
 #sectionprofile {
     width: 1200px;
     margin: auto;
+    margin-top: 70px;
     background-color: white;
 }
 
@@ -445,6 +445,41 @@ body {
     margin-right: 19px;
 }
 
+#texteprofile {
+    height: 570px;
+    overflow: hidden;
+    width: 400px;
+
+}
+
+#carouselprofile1,
+#carouselprofile2,
+#carouselprofile3,
+#carouselprofile4 {
+    scroll-snap-align: start;
+    width: inherit;
+    height: inherit;
+    background-color: white;
+    position: relative;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+#carouselprofile3 h1 {
+    width: 100%;
+}
+
+#carouselprofile3 h2 {
+    margin-bottom: 0px;
+}
+
+#carouselprofile3 ul {
+    margin-top: 0px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
 #texteprofile h1 {
 
     font-size: 40px;
@@ -457,7 +492,7 @@ body {
     font-weight: lighter;
 }
 
-#texteprofile h3 {
+#texteprofile {
     font-size: 15px;
     font-weight: lighter;
 }
