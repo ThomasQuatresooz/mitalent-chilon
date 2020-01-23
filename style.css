@@ -1438,7 +1438,11 @@ footer {
     padding-top: 55px;
 }
 
-#about-button a:first-child {
+#main-content-about a:hover{
+    background: linear-gradient(135deg, black, grey);
+}
+
+#about-button a:first-child{
     display: block;
     text-decoration: none;
     background-color: #ACD6D4;
@@ -1466,6 +1470,16 @@ footer {
     background-color: white;
     text-align: center;
     padding-top: 20px;
+}
+
+#about-button a:hover:first-child{
+    font-size: 20px;
+    background-color: rgb(93, 192, 187);
+}
+
+#about-button img:hover{
+    height: 30px;
+    width: 30px;
 }
 
 /* Contact Style */
@@ -1504,7 +1518,7 @@ footer {
     display: block;
     background-color: #ACD6D4;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 16px;
     color: white;
     margin-top: 600px;
     float: left;
@@ -1514,7 +1528,12 @@ footer {
     padding-top: 20px;
 }
 
-#contact-button a {
+#contact-button a:hover:first-child{
+    font-size: 20px;
+    background-color: rgb(93, 192, 187);
+}
+
+#contact-button a{
     display: block;
     height: 70px;
     width: 70px;
@@ -1529,6 +1548,11 @@ footer {
 #contact-button img {
     width: 20px;
     height: 20px;
+}
+
+#contact-button img:hover{
+    height: 30px;
+    width: 30px;
 }
 
 #main-content-contact {
@@ -1552,7 +1576,7 @@ footer {
     width: 450px;
     color: black;
     line-height: 30px;
-    margin-left: 100px;
+    margin-left: 60px;
     margin-bottom: 30px;
 }
 
@@ -1562,7 +1586,7 @@ footer {
 }
 
 #info-contact {
-    margin-left: 30px;
+    margin-left: 60px;
     color: #808080;
 }
 
