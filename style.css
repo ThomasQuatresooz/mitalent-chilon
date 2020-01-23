@@ -891,12 +891,26 @@ footer {
     background-color: #FFF;
     padding: 85px 100px 100px 85px;
     z-index: 1;
+    font-family: 'Poppins', sans-serif;
+}
+
+#title-client h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+#title-client h2 {
+    font-size: 1em;
+    margin-bottom: 2em;
+    font-weight: 100;
 }
 
 #title-client a {
     padding: 10px 50px;
     background-color: #ACD6D4;
     border-radius: 3px;
+    text-decoration: none;
+    color: #FFF;
 }
 
 #title-client a:hover {
@@ -952,17 +966,67 @@ footer {
     width: 1em;
 }
 
-.arrow-right {
-    transform: rotate(0.5turn);
+.arrow-left:hover {
+    animation: ease 0.5s forwards moveArrowLeft;
 }
 
-.arrow-up {
-    transform: rotate(0.25turn);
+@keyframes moveArrowLeft {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-0.5em);
+
+    }
 }
 
-.arrow-down {
-    transform: rotate(-0.25turn);
+.arrow-right:hover{
+    animation: ease 0.5s forwards moveArrowRight;
+
 }
+
+@keyframes moveArrowRight {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(0.5em);
+
+    }
+}
+
+.arrow-up:hover {
+    animation: ease 0.5s forwards moveArrowUp;
+}
+
+@keyframes moveArrowUp {
+    from {
+        transform: translateY(0);
+    }
+
+    to {
+        transform: translateY(-0.5em);
+
+    }
+}
+
+.arrow-down:hover {
+    animation: ease 0.5s forwards moveArrowDown;
+}
+
+@keyframes moveArrowDown {
+    from {
+        transform: translateY(0);
+    }
+
+    to {
+        transform: translateY(0.5em);
+
+    }
+}
+
 
 #client-background {
     grid-area: 1 / 1 / 6 / 4;
@@ -1009,6 +1073,8 @@ footer {
 
 #list-links #active {
     color: #1A191E;
+    font-weight: 700;
+
 }
 
 #list-links li:hover {
@@ -1044,11 +1110,87 @@ footer {
     background-image: url(./images/glass-woman.jpg);
 }
 
+#client6 {
+    background-image: url(./images/derek.jpg);
+}
+
+#client7 {
+    background-image: url(./images/anna.jpg);
+}
+
+#client8 {
+    background-image: url(./images/profile/derekounet2.png);
+}
+
+#client9 {
+    background-image: url(./images/old-woman.jpg);
+}
+
+#client10 {
+    background-image: url(./images/glass-woman.jpg);
+}
+
+#client11 {
+    background-image: url(./images/derek.jpg);
+}
+
+#client12 {
+    background-image: url(./images/anna.jpg);
+}
+
+#client13 {
+    background-image: url(./images/profile/derekounet2.png);
+}
+
+#client14 {
+    background-image: url(./images/old-woman.jpg);
+}
+
+#client15 {
+    background-image: url(./images/glass-woman.jpg);
+}
+
+#client16 {
+    background-image: url(./images/derek.jpg);
+}
+
+#client17 {
+    background-image: url(./images/anna.jpg);
+}
+
+#client18 {
+    background-image: url(./images/profile/derekounet2.png);
+}
+
+#client19 {
+    background-image: url(./images/old-woman.jpg);
+}
+
+#client20 {
+    background-image: url(./images/glass-woman.jpg);
+}
+
+#client21 {
+    background-image: url(./images/derek.jpg);
+}
+
+#client22 {
+    background-image: url(./images/anna.jpg);
+}
+
+#client23 {
+    background-image: url(./images/profile/derekounet2.png);
+}
+
+#client24 {
+    background-image: url(./images/old-woman.jpg);
+}
+
+
 .client {
     width: 25%;
     height: 310px;
     background-color: black;
-    background-image: url(https://picsum.photos/300/310);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -1153,8 +1295,16 @@ footer {
     fill: #FFF;
 }
 
+#social-connection--mediaBar svg {
+    width: 1em;
+}
+
 #social-connection--mediaBar li {
     margin: 0;
+}
+
+#social-connection--mediaBar li:hover{
+    fill: #808080;
 }
 
 #social-connection--title h1 {
@@ -1214,6 +1364,19 @@ footer {
     width: 50px;
     height: 50px;
     margin-right: 1em;
+}
+
+#content--video img:hover{
+    animation: forwards 0.5s ease videoScale;
+}
+
+@keyframes videoScale{
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.2    );
+    }
 }
 
 #social-connection--subtitle {
@@ -1308,7 +1471,7 @@ footer {
     margin-top: 14px;
 }
 
-#main-content-about a{
+#main-content-about a {
     display: block;
     background-color: black;
     height: 120px;
@@ -1322,7 +1485,7 @@ footer {
     padding-top: 55px;
 }
 
-#about-button a:first-child{
+#about-button a:first-child {
     display: block;
     text-decoration: none;
     background-color: #ACD6D4;
@@ -1336,12 +1499,12 @@ footer {
     padding-top: 20px;
 }
 
-#about-button img{
+#about-button img {
     height: 20px;
     width: 20px;
 }
 
-#about-button a{
+#about-button a {
     display: block;
     height: 60px;
     width: 60px;
@@ -1382,7 +1545,7 @@ footer {
     margin-left: 150px;
 }
 
-#contact-button a:first-child{
+#contact-button a:first-child {
     width: 200px;
     height: 40px;
     display: block;
@@ -1398,7 +1561,7 @@ footer {
     padding-top: 20px;
 }
 
-#contact-button a{
+#contact-button a {
     display: block;
     height: 70px;
     width: 70px;
@@ -1410,7 +1573,7 @@ footer {
     padding-top: 20px;
 }
 
-#contact-button img{
+#contact-button img {
     width: 20px;
     height: 20px;
 }
