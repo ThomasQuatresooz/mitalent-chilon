@@ -144,6 +144,7 @@ body {
     position: relative;
     right: 50px;
     top: 50px;
+    grid-area: 1 / 2 / 3 / 4;
 
 }
 
@@ -1271,7 +1272,7 @@ footer {
 }
 
 #client2 {
-    background-image: url(./images/anna.jpg);
+    background-image: url(./images/anna-photo1.jpg);
 }
 
 #client3 {
@@ -1291,7 +1292,7 @@ footer {
 }
 
 #client7 {
-    background-image: url(./images/anna.jpg);
+    background-image: url(./images/anna-photo1.jpg);
 }
 
 #client8 {
@@ -1311,7 +1312,7 @@ footer {
 }
 
 #client12 {
-    background-image: url(./images/anna.jpg);
+    background-image: url(./images/anna-photo1.jpg);
 }
 
 #client13 {
@@ -1331,7 +1332,7 @@ footer {
 }
 
 #client17 {
-    background-image: url(./images/anna.jpg);
+    background-image: url(./images/anna-photo1.jpg);
 }
 
 #client18 {
@@ -1351,7 +1352,7 @@ footer {
 }
 
 #client22 {
-    background-image: url(./images/anna.jpg);
+    background-image: url(./images/anna-photo1.jpg);
 }
 
 #client23 {

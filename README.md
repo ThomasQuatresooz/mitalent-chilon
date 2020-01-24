@@ -7,7 +7,6 @@
 ## Objectif
 
 Réaliser un site static en HTML/CSS via une maquette et intégrer les 5 vues :
-intégrer 5 vues:
 
 -   Une homepage
 -   Un dashboard reprenant l'ensemble des talents disponibles
