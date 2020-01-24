@@ -752,7 +752,7 @@ li {
     padding: 0;
     width: max-content;
     display: grid;
-    grid-template-columns: repeat(3, 325px);
+    grid-template-columns: repeat(3, 345px);
     grid-template-rows: 90px 325px 260px;
     grid-column-gap: 32.5px;
     grid-row-gap: 32.5px;
@@ -776,6 +776,7 @@ li {
 }
 
 .blog--item{
+    background-size: cover;
     -webkit-transform: perspective(1px) translateZ(0);
     transform: perspective(1px) translateZ(0);
     box-shadow: 0 0 1px rgba(0, 0, 0, 0);
@@ -783,6 +784,7 @@ li {
     transition-duration: 0.3s;
     -webkit-transition-property: box-shadow;
     transition-property: box-shadow;
+
   }
   .blog--item:hover, .blog--item:focus, .blog--item:active {
     box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
@@ -1587,7 +1589,7 @@ footer {
     padding: 0;
     width: max-content;
     display: grid;
-    grid-template-columns: repeat(3, 325px);
+    grid-template-columns: repeat(3, 345px);
     grid-template-rows: 90px 90px;
     grid-column-gap: 32.5px;
     grid-row-gap: 32.5px;
