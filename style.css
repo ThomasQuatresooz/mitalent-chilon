@@ -383,11 +383,19 @@ body {
 }
 
 .imgslide img:hover {
-    /* filter: saturate(100%); */
 
     mix-blend-mode: luminosity;
 
 }
+
+/* .imgslide img:hover .gallery--content-info {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-end;
+    align-items: center;
+    visibility: visible;
+
+} */
 
 .buttonN {
     margin-top: 10px;
