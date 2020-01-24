@@ -1,12 +1,12 @@
 #navbar {
     position: absolute;
-    top: 0;
+    width: 1200px;
     display: grid;
     grid-template-columns: repeat(24, 1fr);
     grid-template-rows: 1fr;
     align-items: center;
     justify-items: center;
-    padding: 1em;
+
 }
 
 .search {
