@@ -1,4 +1,4 @@
-/* couleur des buttons  : #ACD6D4
+/* couleur des buttons  : #B5D3D3
 couleur logo Mitalent : #333333
 couleur de fond d'images photos portrait : #D8D8D6 
 couleur de fond de la page : #E5E5E5
@@ -88,7 +88,7 @@ body {
 
 .ficheTalent__profil__link {
 
-    color: #ACD6D4;
+    color: #B5D3D3;
     display: inline-grid;
     justify-items: center;
     align-items: center;
@@ -228,7 +228,7 @@ body {
     position: relative;
     margin-top: 2px;
     width: 40px;
-    border: solid 1px black;
+    border: solid 1px #1A191E;
     bottom: 10px;
     left: 50px;
 }
@@ -290,7 +290,7 @@ body {
 }
 
 .menu a:hover {
-    color: black;
+    color: #1A191E;
     text-decoration: underline;
 }
 
@@ -373,7 +373,7 @@ body {
     height: inherit;
     margin-right: 50px;
     border-radius: 10px;
-    background: #eee;
+    background: #FFF;
     transform-origin: center center;
     transform: scale(1);
     transition: transform 0.5s;
@@ -421,11 +421,11 @@ body {
 .buttonN {
     margin-top: 10px;
     width: 300px;
-    margin: auto;
+    margin: 1em auto;
 }
 
 #EM {
-    background-color: #ACD6D4;
+    background-color: #B5D3D3;
     width: 250px;
     height: 60px;
     border-radius: 40px;
@@ -469,7 +469,7 @@ body {
 
 
 .inslide {
-    background-color: #ACD6D4;
+    background-color: #B5D3D3;
     width: 275px;
     height: inherit;
     transition: opacity .25s ease-in-out;
@@ -487,6 +487,7 @@ body {
     margin: auto;
     margin-top: 70px;
     background-color: white;
+    color: #1A191E;
 }
 
 #containeprofile {
@@ -521,7 +522,7 @@ body {
 .navprofile a {
     text-decoration: none;
     text-transform: uppercase;
-    color: black;
+    color: #1A191E;
     font-size: 10px;
     font-weight: bold;
     margin-right: 19px;
@@ -545,6 +546,24 @@ body {
     position: relative;
     display: flex;
     flex-flow: row wrap;
+    color: #1A191E;
+}
+
+#carouselprofile1 p{
+    color: #808080;
+}
+#carouselprofile2 p{
+    color: #808080;
+}
+#carouselprofile3 p{
+    color: #808080;
+}
+#carouselprofile2-3 p{
+    color: #808080;
+}
+
+#carouselprofile4 p{
+    color: #808080;
 }
 
 #carouselprofile3 h1 {
@@ -640,7 +659,7 @@ li {
     margin-bottom: 25px;
     width: 20%;
     float: left;
-    border: solid black 0.7px;
+    border: solid #1A191E 0.7px;
 }
 
 .video {
@@ -660,7 +679,7 @@ li {
 #link a {
     text-decoration: none;
     text-transform: uppercase;
-    color: black;
+    color: #1A191E;
     font-size: 10px;
     font-weight: bold;
 }
@@ -693,7 +712,7 @@ li {
     margin-bottom: 25px;
     width: 20%;
     float: left;
-    border: solid black 0.7px;
+    border: solid #1A191E 0.7px;
 }
 
 #simd p {
@@ -704,7 +723,7 @@ li {
 #simd a {
     text-decoration: none;
     text-transform: uppercase;
-    color: black;
+    color: #1A191E;
     font-size: 10px;
     font-weight: bold;
 }
@@ -811,11 +830,15 @@ li {
 #blog--title {
     margin: 0 auto;
     text-align: center;
+    font-size: 4em;
+    font-weight: 400;
+    color: #1A191E;
 }
 
 #blog--line {
-    width: 75px;
+    width: 7em;
     text-align: center;
+    color: #1A191E;
 }
 
 .blog--item{
@@ -833,7 +856,9 @@ li {
 .blog--item:focus,
 .blog--item:active {
     box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+    
 }
+
 
 
 .blog--item-mini {
@@ -886,13 +911,13 @@ li {
     flex-flow: row nowrap;
     justify-content: space-between;
     align-items: stretch;
-    color: #E5E5E5;
+    color: #FFF;
 }
 
 .blog--item-row img {
     width: 25px;
     height: 25px;
-    fill: #E5E5E5;
+    fill: #FFF;
 }
 
 
@@ -920,7 +945,7 @@ li {
 #rowItem--containerTitle {
     width: 260px;
     height: 100%;
-    background-color: #ACD6D4;
+    background-color: #B5D3D3;
     display: flex;
     flex-flow: column nowrap;
     justify-content: flex-end;
@@ -936,7 +961,7 @@ li {
     align-self: flex-start;
     margin: 5px 5px 0 0;
     padding: 7px 30px;
-    color: black;
+    color: #1A191E;
     text-transform: uppercase;
     text-align: center;
     font-size: 0.8em;
@@ -950,6 +975,7 @@ li {
 #mediumItem--containerTitleVideo {
     position: absolute;
     bottom: 0;
+    margin-bottom: 1em;
     background-color: rgba(0, 0, 0, 0);
     display: flex;
     flex-flow: row nowrap;
@@ -964,7 +990,8 @@ li {
 }
 
 #mediumItem--containerTitleVideo h2 {
-    color: #E5E5E5;
+    color: #FFF;
+    margin: 0;
 }
 
 .containerTitle-bottom {
@@ -1073,6 +1100,7 @@ footer {
     width: 100%;
     background-color: #FFF;
     min-height: 700px;
+    color: #1A191E;
 }
 
 #top-grid {
@@ -1102,10 +1130,13 @@ footer {
     padding: 85px 100px 100px 85px;
     z-index: 1;
     font-family: 'Poppins', sans-serif;
+    color: #1A191E;
 }
 
 #title-client h1 {
-    font-size: 3em;
+    font-size: 4em;
+    font-weight: normal;
+
     margin: 0;
 }
 
@@ -1117,7 +1148,7 @@ footer {
 
 #title-client a {
     padding: 10px 50px;
-    background-color: #ACD6D4;
+    background-color: #B5D3D3;
     border-radius: 3px;
     text-decoration: none;
     color: #FFF;
@@ -1297,6 +1328,7 @@ footer {
 
 #list-links #active {
     color: #1A191E;
+    text-decoration: underline;
     font-weight: 700;
 
 }
@@ -1414,7 +1446,7 @@ footer {
 .client {
     width: 25%;
     height: 310px;
-    background-color: black;
+    background-color: #1A191E;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -1435,7 +1467,7 @@ footer {
 }
 
 .client:hover .gallery--content-info {
-    background-color: black;
+    background-color: #1A191E;
     opacity: 0.6;
     display: flex;
     flex-flow: column nowrap;
@@ -1470,13 +1502,14 @@ footer {
     padding: 5px;
     border: none;
     border-radius: 17px;
-    background-color: #ACD6D4;
+    background-color: #B5D3D3;
 }
 
 /*Client Social Connection*/
 #social-connection {
     margin-top: 2em;
     font-family: 'Poppins', sans-serif;
+    color: #1A191E;
 }
 
 #social-connection--grid {
@@ -1532,7 +1565,7 @@ footer {
 }
 
 #social-connection--title h1 {
-    font-size: 3em;
+    font-size: 4em;
     font-weight: 200;
     line-height: 1em;
 }
@@ -1548,7 +1581,7 @@ footer {
 
 #social-connection--upDown {
     grid-area: 6/3/7/4;
-    background-color: #fff;
+    background-color: #FFF;
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-evenly;
@@ -1620,10 +1653,13 @@ footer {
 
 #lastest-news h1 {
     text-align: center;
+    font-size: 4em;
+    font-weight: 400;
+    margin-bottom: 0;
 }
 
 #lastest-news hr {
-    width: 75px;
+    width: 7em;
     text-align: center;
     margin-bottom: 2em;
 
@@ -1669,6 +1705,7 @@ footer {
 
     background-position: top left;
     font-family: 'Nunito', sans-serif;
+    color: #1A191E;
     margin-bottom: 50px;
 }
 
@@ -1694,7 +1731,7 @@ footer {
 #main-content-about p:first-child {
     padding-top: 150px;
     font-size: 24px;
-    color: black;
+    color: #1A191E;
 }
 
 #main-content-about .premiere-lettre {
@@ -1705,7 +1742,7 @@ footer {
 
 #main-content-about a {
     display: block;
-    background-color: black;
+    background-color: #1A191E;
     height: 120px;
     width: 400px;
     text-decoration: none;
@@ -1718,13 +1755,13 @@ footer {
 }
 
 #main-content-about a:hover {
-    background: linear-gradient(135deg, black, grey);
+    background: linear-gradient(135deg, #1A191E, grey);
 }
 
 #about-button a:first-child {
     display: block;
     text-decoration: none;
-    background-color: #ACD6D4;
+    background-color: #B5D3D3;
     text-align: center;
     width: 200px;
     height: 40px;
@@ -1765,6 +1802,7 @@ footer {
 
 #main-contact {
     font-family: 'Nunito', sans-serif;
+    color: #1A191E;
 }
 
 #content-contact-left {
@@ -1796,7 +1834,7 @@ footer {
     width: 200px;
     height: 40px;
     display: block;
-    background-color: #ACD6D4;
+    background-color: #B5D3D3;
     text-decoration: none;
     font-size: 16px;
     color: white;
@@ -1810,6 +1848,7 @@ footer {
 
 #contact-button a:hover:first-child {
     font-size: 20px;
+    color: #;
     background-color: rgb(93, 192, 187);
 }
 
@@ -1854,7 +1893,7 @@ footer {
     padding-top: 200px;
     font-size: 24px;
     width: 450px;
-    color: black;
+    color: #1A191E;
     line-height: 30px;
     margin-left: 60px;
     margin-bottom: 30px;
