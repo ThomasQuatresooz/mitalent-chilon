@@ -1762,15 +1762,11 @@ footer {
     display: block;
     text-decoration: none;
     background-color: #B5D3D3;
-    text-align: center;
-    width: 200px;
+    width: 250px;
     height: 40px;
     color: white;
-    font-size: 13px;
-    font-weight: 600px;
+    font-size: 14px;
     float: left;
-    margin-top: 740px;
-    padding-top: 20px;
 }
 
 #about-button img {
@@ -1832,19 +1828,15 @@ footer {
 }
 
 #contact-button a:first-child {
-    width: 200px;
+    width: 300px;
     height: 40px;
     display: block;
     background-color: #B5D3D3;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 14px;
     color: white;
-    margin-top: 600px;
     float: left;
-    margin-left: -270px;
-    margin-top: 720px;
-    text-align: center;
-    padding-top: 20px;
+    margin-left: -350px;
 }
 
 #contact-button a:hover:first-child {
@@ -1916,4 +1908,34 @@ footer {
 
 #info-contact td {
     width: 200px;
+}
+
+/* Variante du carousel (version gauche) */
+
+#cptCarousel--left {
+    margin-top: 320px;
+    position: absolute;
+    margin-left: 30px;
+}
+
+#cptCarousel--left ul {
+    list-style: none;
+    padding: 1em;
+    font-size: 0.60em;
+    font-family: 'Nunito';
+    font-weight: 600;
+    color: #1A191E;
+}
+
+#cptCarousel--left li {
+    padding: 1em 0;
+}
+
+
+.line--cursor--left {
+    position: absolute;
+    margin-top: 2px;
+    width: 20px;
+    border: solid 1px black;
+    margin-left: -40px;
 }
