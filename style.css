@@ -463,12 +463,17 @@ body {
 .imgprofile img {
     width: 400px;
     height: 600px;
+    object-fit: cover;
 }
 
 .imgprofile2 img {
     width: 450px;
     height: 600px;
     object-fit: cover;
+}
+
+#reverse {
+    transform: scaleX(-1)
 }
 
 .profile {
@@ -498,6 +503,7 @@ body {
 #carouselprofile1,
 #carouselprofile2,
 #carouselprofile3,
+#carouselprofile2-3,
 #carouselprofile4 {
     scroll-snap-align: start;
     width: inherit;
@@ -509,6 +515,12 @@ body {
 }
 
 #carouselprofile3 h1 {
+    width: 100%;
+    margin-bottom: 0px;
+}
+
+#carouselprofile2-3 h1,
+h2 {
     width: 100%;
     margin-bottom: 0px;
 }
@@ -774,7 +786,7 @@ li {
     text-align: center;
 }
 
-.blog--item{
+.blog--item {
     -webkit-transform: perspective(1px) translateZ(0);
     transform: perspective(1px) translateZ(0);
     box-shadow: 0 0 1px rgba(0, 0, 0, 0);
@@ -782,11 +794,14 @@ li {
     transition-duration: 0.3s;
     -webkit-transition-property: box-shadow;
     transition-property: box-shadow;
-  }
-  .blog--item:hover, .blog--item:focus, .blog--item:active {
+}
+
+.blog--item:hover,
+.blog--item:focus,
+.blog--item:active {
     box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
-  }
-  
+}
+
 
 .blog--item-mini {
     display: flex;
