@@ -57,7 +57,7 @@ body {
 #portrait {
     grid-column: 2/4;
     grid-row: 1/5;
-    /* background-image: url("images/derek.jpg"); */
+    /* background-image: url("images/Derekounet.png"); */
 
 
     background-size: cover;
@@ -1232,7 +1232,7 @@ footer {
 /* gallery-code */
 
 #gallery {
-    margin: 1rem 35px;
+    margin: 1rem 50px;
 }
 
 #nav-gallery {
@@ -1287,7 +1287,7 @@ footer {
 }
 
 #client1 {
-    background-image: url(./images/derek.jpg);
+    background-image: url(./images/profile/Derekounet.png);
 }
 
 #client2 {
@@ -1295,19 +1295,19 @@ footer {
 }
 
 #client3 {
-    background-image: url(./images/profile/derekounet2.png);
+    background-image: url(./images/img-slides/blonde.jpg);
 }
 
 #client4 {
-    background-image: url(./images/old-woman.jpg);
+    background-image: url(./images/./profile3/profile3-2.jpeg);
 }
 
 #client5 {
-    background-image: url(./images/glass-woman.jpg);
+    background-image: url(./images/./profile/sara.jpg);
 }
 
 #client6 {
-    background-image: url(./images/derek.jpg);
+    background-image: url(./images/profile/Derekounet.png);
 }
 
 #client7 {
@@ -1315,19 +1315,19 @@ footer {
 }
 
 #client8 {
-    background-image: url(./images/profile/derekounet2.png);
+    background-image: url(./images/img-slides/blonde.jpg);
 }
 
 #client9 {
-    background-image: url(./images/old-woman.jpg);
+    background-image: url(./images/./profile3/profile3-2.jpeg);
 }
 
 #client10 {
-    background-image: url(./images/glass-woman.jpg);
+    background-image: url(./images/./profile/sara.jpg);
 }
 
 #client11 {
-    background-image: url(./images/derek.jpg);
+    background-image: url(./images/profile/Derekounet.png);
 }
 
 #client12 {
@@ -1335,19 +1335,19 @@ footer {
 }
 
 #client13 {
-    background-image: url(./images/profile/derekounet2.png);
+    background-image: url(./images/img-slides/blonde.jpg);
 }
 
 #client14 {
-    background-image: url(./images/old-woman.jpg);
+    background-image: url(./images/./profile3/profile3-2.jpeg);
 }
 
 #client15 {
-    background-image: url(./images/glass-woman.jpg);
+    background-image: url(./images/./profile/sara.jpg);
 }
 
 #client16 {
-    background-image: url(./images/derek.jpg);
+    background-image: url(./images/profile/Derekounet.png);
 }
 
 #client17 {
@@ -1355,19 +1355,19 @@ footer {
 }
 
 #client18 {
-    background-image: url(./images/profile/derekounet2.png);
+    background-image: url(./images/img-slides/blonde.jpg);
 }
 
 #client19 {
-    background-image: url(./images/old-woman.jpg);
+    background-image: url(./images/./profile3/profile3-2.jpeg);
 }
 
 #client20 {
-    background-image: url(./images/glass-woman.jpg);
+    background-image: url(./images/./profile/sara.jpg);
 }
 
 #client21 {
-    background-image: url(./images/derek.jpg);
+    background-image: url(./images/profile/Derekounet.png);
 }
 
 #client22 {
@@ -1375,11 +1375,11 @@ footer {
 }
 
 #client23 {
-    background-image: url(./images/profile/derekounet2.png);
+    background-image: url(./images/img-slides/blonde.jpg);
 }
 
 #client24 {
-    background-image: url(./images/old-woman.jpg);
+    background-image: url(./images/./profile3/profile3-2.jpeg);
 }
 
 
