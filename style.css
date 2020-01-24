@@ -18,6 +18,12 @@ body {
 
 }
 
+
+section {
+
+    padding: 2em 0;
+}
+
 #mainContainer {
     width: 1200px;
     min-height: 900px;
@@ -27,7 +33,10 @@ body {
     background-size: 325px 325px;
     background-repeat: no-repeat;
     background-position: top right;
+    padding: 1em 3em;
 }
+
+
 
 
 
@@ -36,7 +45,7 @@ body {
 #faceHeader {
     padding-top: 130px;
     width: 100%;
-    min-height: 600px;
+
     /* A SUPPRIMER PLUS TARD */
     /* background-color: white; */
     /* background-image: linear-gradient(90deg, rgba(199, 220, 221, 1) 0%, rgba(208, 226, 226, 1) 100%);
@@ -76,7 +85,7 @@ body {
 
 
 #ficheTalent__profil {
-    padding-right: 3em;
+
     /* attention. uniformiser les marges */
     height: 500px;
     display: grid;
@@ -145,20 +154,21 @@ body {
 
 #name {
 
-    position: absolute;
-    left: 220px;
-    top: 180px;
+    position: relative;
+    left: 200px;
+    top: 100px;
 
 }
 
 #name__profil {
-    position: absolute;
+    position: relative;
     left: 180px;
     top: 180px;
 
 }
 
 .name__profil--darkbg {
+
     background-color: rgba(255, 255, 255, 0.521);
 
 }
@@ -261,13 +271,13 @@ body {
 
 
 #slider {
-    width: 1000px;
+    /* width: 1000px; */
     text-align: center;
     overflow: hidden;
 }
 
 #sliderabout {
-    width: 1000px;
+    /* width: 1000px; */
     text-align: center;
     overflow: hidden;
 }
@@ -295,8 +305,8 @@ body {
 }
 
 .slides {
-    width: 1100px;
-    height: 610px;
+
+    height: 720px;
     display: flex;
     overflow-x: auto;
     overflow-y: hidden;
@@ -307,7 +317,7 @@ body {
 }
 
 .slidesabout {
-    width: 1100px;
+
     height: 310px;
     display: flex;
     overflow-x: auto;
@@ -351,9 +361,9 @@ body {
 .slides>div {
     scroll-snap-align: start;
     flex-shrink: 0;
-    width: 1100px;
+    width: 1200px;
     height: 600px;
-    margin-right: 50px;
+    /* margin-right: 50px; */
     border-radius: 10px;
 
     transform-origin: center center;
@@ -369,7 +379,6 @@ body {
 .slidesabout>div {
     scroll-snap-align: start;
     flex-shrink: 0;
-    width: 1100px;
     height: inherit;
     margin-right: 50px;
     border-radius: 10px;
@@ -386,7 +395,8 @@ body {
 
 
 .imgslide {
-    height: 300px;
+    width: 300px;
+    height: 350px;
     overflow: hidden;
     background-color: #B5D3D3;
 }
@@ -398,6 +408,8 @@ body {
 
 .imgslide img {
 
+    width: 100%;
+    height: 100%;
     object-fit: cover;
     /* filter: saturate(0%); */
 
@@ -510,13 +522,17 @@ body {
 }
 
 .profile {
-    width: 1100px;
     margin: auto;
     margin-bottom: 80px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-content: center;
 }
+
+.profile>img {
+    max-height: 600px;
+}
+
 
 .navprofile a {
     text-decoration: none;
@@ -595,8 +611,10 @@ li {
 
 .texteprofile {
     width: 400px;
-    ;
+
     margin-bottom: auto;
+    margin-right: 150px;
+
     text-align: justify;
     font-family: 'Nunito',
         sans-serif;
@@ -784,18 +802,15 @@ li {
 /* Section Thomas */
 #blog-section {
     display: block;
-    margin: 3em auto;
-    padding: 0;
     font-family: 'Poppins', sans-serif;
 
 }
 
 #blog {
-    margin: 1rem auto;
     padding: 0;
-    width: max-content;
+    /* width: max-content; */
     display: grid;
-    grid-template-columns: repeat(3, 345px);
+    grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 90px 325px 260px;
     grid-column-gap: 32.5px;
     grid-row-gap: 32.5px;
@@ -809,16 +824,17 @@ li {
 }
 
 #blog--title {
-    margin: 0 auto;
+    margin: 0.5em auto;
     text-align: center;
 }
 
 #blog--line {
     width: 75px;
     text-align: center;
+    margin-bottom: 2em;
 }
 
-.blog--item{
+.blog--item {
     background-size: cover;
     -webkit-transform: perspective(1px) translateZ(0);
     transform: perspective(1px) translateZ(0);
@@ -998,7 +1014,7 @@ footer {
     align-items: stretch;
     font-family: 'Nunito', sans-serif;
     color: #1A191E;
-    margin: 4em 2em 1em;
+
 }
 
 #footer--logo {
@@ -1666,10 +1682,10 @@ footer {
     background-image: url(images/aboutRobot.jpeg);
     background-size: auto 800px;
     background-repeat: no-repeat;
-
+    padding: 0;
+    margin-top: 2em;
     background-position: top left;
     font-family: 'Nunito', sans-serif;
-    margin-bottom: 50px;
 }
 
 #main-content-about {
