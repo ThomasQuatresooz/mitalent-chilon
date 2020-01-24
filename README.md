@@ -22,7 +22,7 @@ Réaliser un site static en HTML/CSS via une maquette et intégrer les 5 vues :
 
 - Comprehension de la logique de grid et flex (Safiye)
 - Maintenir la taille/ratio des images (resolu avec object-fit)(Thomas)
--
--
+- Les margins "conflictuelles" 
+
 
 
