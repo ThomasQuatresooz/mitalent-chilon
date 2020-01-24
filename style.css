@@ -399,6 +399,8 @@ body {
 .imgslide img {
 
     object-fit: cover;
+    /* filter: saturate(0%); */
+
 }
 
 .imgslide img:hover {
