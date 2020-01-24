@@ -818,7 +818,7 @@ li {
     text-align: center;
 }
 
-.blog--item{
+.blog--item {
     background-size: cover;
     -webkit-transform: perspective(1px) translateZ(0);
     transform: perspective(1px) translateZ(0);
@@ -1729,7 +1729,8 @@ footer {
     width: 200px;
     height: 40px;
     color: white;
-    font-size: 16px;
+    font-size: 13px;
+    font-weight: 600px;
     float: left;
     margin-top: 740px;
     padding-top: 20px;
