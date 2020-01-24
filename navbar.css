@@ -144,8 +144,6 @@ img.search {
     text-decoration: none;
 }
 
-.dropdown a:hover {}
-
 .dropdown li:hover {
     background-color: white;
     transition: background-color 0.5s;
@@ -232,4 +230,27 @@ img.search {
     top: 320px;
     font-size: 0.9em;
     transform: rotate(-90deg);
+}
+
+/* profil */
+#socialBar--top-profil {
+    position: absolute;
+    margin-top: 200px;
+    padding-left: 450px;
+    width: 10px;
+    height: 100px;
+}
+
+#socialBar--top-profil ul {
+    list-style: none;
+    padding: 0;
+}
+
+#socialBar--top-profil li {
+    margin: 1.5em 0;
+}
+
+#socialBar--top-profil svg {
+    height: 1em;
+    fill: black;
 }
