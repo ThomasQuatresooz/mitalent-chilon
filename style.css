@@ -15,14 +15,23 @@ body {
     margin: 0;
     padding: 0;
     background-color: #E5E5E5;
+    
 
 }
 
 
-section {
+ section, footer {
 
-    padding: 2em 0;
-}
+    padding: 2em;
+    box-sizing: border-box;
+ }
+
+ section *, footer *{
+
+    box-sizing: content-box;
+ }
+ 
+ 
 
 #mainContainer {
     width: 1200px;
@@ -33,7 +42,7 @@ section {
     background-size: 325px 325px;
     background-repeat: no-repeat;
     background-position: top right;
-    padding: 1em 3em;
+    /* padding: 1em 3em; */
 }
 
 
@@ -844,7 +853,7 @@ li {
 }
 
 #blog--title {
-    margin: 0.5em auto;
+    margin:  auto;
     text-align: center;
     font-size: 4em;
     font-weight: 400;
@@ -1720,7 +1729,7 @@ footer {
     background-size: auto 800px;
     background-repeat: no-repeat;
     padding: 0;
-    margin-top: 2em;
+    margin-top: 3em;
     background-position: top left;
     font-family: 'Nunito', sans-serif;
     color: #1A191E;

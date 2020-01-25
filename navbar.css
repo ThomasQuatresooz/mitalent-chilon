@@ -6,6 +6,9 @@
     grid-template-rows: 1fr;
     align-items: center;
     justify-items: center;
+    top:0;
+    padding: 1em 2em;
+    box-sizing: border-box;
 
 }
 
